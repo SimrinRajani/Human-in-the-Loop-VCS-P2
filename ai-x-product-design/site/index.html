@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AI × Product Design Guide</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..700&family=Instrument+Sans:wght@400..600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+html,body{margin:0}
+
+/* Layout: a single dark "sunset dashboard". Atmosphere of blurred dusk light behind frosted-glass tiles.
+   Hero = light beam + working prompt; then a bento of stat tiles; source constellation; feed; rhythm. */
+:root{
+  --bg:#110D15; --bg-2:#1A1320;
+  --glass:rgba(255,255,255,.045); --glass-2:rgba(255,255,255,.08); --stroke:rgba(255,255,255,.10); --stroke-hi:rgba(255,255,255,.22);
+  --fg:#F5EFEA; --muted:#B9AEB8; --faint:#8A7F8C;
+  --orange:#FF9A52; --coral:#F26B5E; --magenta:#D45A93; --violet:#9A7DF5; --cyan:#62C9D6;
+  --on-orange:#2A1408;
+  --f-display:"Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --f-body:"Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--f-body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius:8px}
+p{margin:0}
+h1,h2,h3{font-family:var(--f-display);margin:0;text-wrap:balance}
+
+/* atmosphere */
+.sky{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.sky i{position:absolute;border-radius:50%;filter:blur(90px);opacity:.55}
+.sky i:nth-child(1){width:46vw;height:46vw;left:-10vw;top:-12vw;background:var(--violet);opacity:.28}
+.sky i:nth-child(2){width:40vw;height:40vw;right:-8vw;top:8vh;background:var(--orange);opacity:.30}
+.sky i:nth-child(3){width:50vw;height:36vw;left:22vw;bottom:-18vw;background:var(--magenta);opacity:.22}
+.sky::after{content:"";position:absolute;inset:0;opacity:.07;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='.9'/></svg>")}
+main,header,footer{position:relative;z-index:1}
+
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+.mono{font-family:var(--f-mono)}
+.eyebrow{font:600 11.5px/1.4 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--orange)}
+.glass{background:linear-gradient(180deg,var(--glass-2),var(--glass));border:1px solid var(--stroke);border-radius:24px;backdrop-filter:blur(22px) saturate(1.2);-webkit-backdrop-filter:blur(22px) saturate(1.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 30px 60px -30px rgba(0,0,0,.6)}
+section{padding-block:56px}
+.sec-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 32px;margin-bottom:22px}
+.sec-head h2{font-size:clamp(28px,4vw,46px);font-weight:400;letter-spacing:-.03em;line-height:1.05}
+.sec-head .lede{color:var(--muted);max-width:50ch}
+
+/* top bar */
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:18px}
+.brand{display:flex;align-items:center;gap:10px;font:600 12.5px var(--f-mono);letter-spacing:.08em}
+.brand i{width:9px;height:9px;border-radius:50%;background:var(--orange);box-shadow:0 0 14px var(--orange);animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.45}}
+.top nav{display:flex;gap:4px;padding:4px;border-radius:999px}
+.top nav a{text-decoration:none;font:12.5px var(--f-mono);color:var(--muted);padding:7px 14px;border-radius:999px}
+.top nav a:hover{color:var(--fg);background:var(--glass-2)}
+
+/* hero */
+.hero{position:relative;padding-block:40px 40px;text-align:center}
+.beam{position:absolute;left:50%;top:-96px;width:2px;height:132px;transform:translateX(-50%);background:linear-gradient(180deg,transparent,rgba(255,214,180,.85) 60%,#fff);filter:drop-shadow(0 0 8px var(--orange)) drop-shadow(0 0 24px var(--coral));pointer-events:none;z-index:0}
+.beam::before{content:"";position:absolute;left:50%;bottom:-1px;width:420px;max-width:80vw;height:2px;transform:translateX(-50%);background:linear-gradient(90deg,transparent,rgba(255,200,160,.9),transparent)}
+.beam::after{content:"";position:absolute;left:50%;bottom:-60px;width:560px;max-width:92vw;height:120px;transform:translateX(-50%);background:radial-gradient(50% 50% at 50% 50%,rgba(255,154,82,.45),transparent 70%);filter:blur(18px)}
+.hero .wrap{position:relative;z-index:1}
+.hero h1{position:relative;font-size:clamp(52px,10.5vw,150px);font-weight:300;letter-spacing:-.05em;line-height:.9;background:linear-gradient(180deg,#FFF7F0 0%,#F6E2D4 60%,rgba(246,226,212,.6) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;margin:22px 0 18px}
+.hero h1 .hl{background:linear-gradient(180deg,#FFC08A,var(--orange) 55%,var(--coral));-webkit-background-clip:text;background-clip:text;color:transparent;font-style:italic;font-weight:400;padding-right:.06em}
+.hero .tagrow{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.tag{font:12px var(--f-mono);color:var(--muted);padding:6px 12px;border-radius:999px;border:1px solid var(--stroke);background:var(--glass)}
+.tag b{color:var(--orange);font-weight:600}
+.hero .sub{color:var(--muted);font-size:clamp(16px,2vw,19px);max-width:56ch;margin:0 auto}
+.prompt{position:relative;max-width:820px;margin:34px auto 0;box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 0 90px -12px rgba(255,154,82,.45);display:flex;align-items:flex-end;gap:12px;border-radius:30px;padding:10px 10px 10px 26px;text-align:left;transition:border-color .2s}
+.prompt:focus-within{border-color:rgba(255,154,82,.6)}
+.prompt .caret{font:600 22px var(--f-mono);color:var(--orange);padding-bottom:10px}
+.prompt textarea{flex:1;min-width:0;resize:none;border:0;background:transparent;color:var(--fg);font:18px/1.45 var(--f-body);padding:12px 0;max-height:160px;outline:none}
+.prompt textarea::placeholder{color:var(--faint)}
+.send{flex:none;width:50px;height:50px;border-radius:50%;border:0;background:linear-gradient(135deg,var(--orange),var(--coral));color:var(--on-orange);font:700 20px var(--f-body);cursor:pointer;display:grid;place-items:center;box-shadow:0 8px 30px -6px var(--orange)}
+.send:disabled{opacity:.5;cursor:default}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;justify-content:center}
+.chip{border:1px solid var(--stroke);background:var(--glass);color:var(--fg);border-radius:999px;padding:7px 14px;font:13px var(--f-body);cursor:pointer;transition:border-color .15s,background .15s;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.chip:hover{border-color:var(--stroke-hi);background:var(--glass-2)}
+.chip.on{background:linear-gradient(135deg,var(--orange),var(--coral));border-color:transparent;color:var(--on-orange);font-weight:600}
+.thread{max-width:820px;margin:22px auto 0;display:flex;flex-direction:column;gap:12px;text-align:left}
+.msg.q{align-self:flex-end;background:var(--glass-2);border:1px solid var(--stroke);border-radius:20px 20px 6px 20px;padding:10px 16px;max-width:620px}
+.msg.a{border-radius:6px 22px 22px 22px;padding:18px 20px}
+.msg.a .status{font:12px var(--f-mono);color:var(--muted);display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.msg.a .status::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--orange);box-shadow:0 0 10px var(--orange)}
+.msg.a.busy .status::before{animation:pulse 1s infinite}
+.msg.a .body{white-space:pre-wrap;font-size:17px}
+.cite{display:inline-block;font:600 11px var(--f-mono);color:var(--orange);border:1px solid var(--stroke);border-radius:6px;padding:0 5px;margin:0 2px;vertical-align:2px;cursor:pointer;background:var(--glass)}
+.cite:hover{border-color:var(--orange)}
+.srcs{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;padding-top:12px;border-top:1px dashed var(--stroke)}
+.srcs a{font:12px var(--f-mono);text-decoration:none;border:1px solid var(--stroke);border-radius:999px;padding:5px 12px;color:var(--muted)}
+.srcs a:hover{color:var(--fg);border-color:var(--stroke-hi)}
+.disclose{margin-top:12px;font:11.5px var(--f-mono);color:var(--faint)}
+
+/* bento */
+.bento{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:14px}
+.tile{position:relative;isolation:isolate;overflow:hidden;padding:22px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.tile .lbl{font:11.5px var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;gap:12px}
+.feat{grid-column:span 6;grid-row:span 2;min-height:420px;justify-content:flex-end;text-decoration:none;padding:28px}
+.feat canvas{position:absolute;inset:0;width:100%;height:100%;z-index:-1}
+.feat::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,transparent 30%,rgba(17,13,21,.85) 85%)}
+.feat h3{font-size:clamp(24px,2.6vw,34px);font-weight:400;letter-spacing:-.02em;line-height:1.12;max-width:22ch}
+.feat .meta{font:12.5px var(--f-mono);color:var(--muted);display:flex;gap:12px;flex-wrap:wrap}
+.feat .pill{align-self:flex-start;font:600 11px var(--f-mono);letter-spacing:.1em;color:var(--on-orange);background:var(--orange);padding:5px 10px;border-radius:999px}
+.feat .lbl{position:absolute;top:24px;left:28px;right:28px;color:rgba(255,255,255,.85)}
+.feat:hover h3{text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.span3{grid-column:span 3}
+.orb{width:120px;height:120px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#FFC189,var(--orange) 45%,var(--coral));box-shadow:0 0 50px -6px var(--orange);font:300 56px/1 var(--f-display);letter-spacing:-.04em;color:var(--on-orange);margin:6px 0 4px}
+.big{font:300 64px/1 var(--f-display);letter-spacing:-.05em;font-variant-numeric:tabular-nums}
+.small{font-size:14px;color:var(--muted)}
+.weeks{display:flex;align-items:flex-end;gap:10px;height:76px;margin-top:auto}
+.weeks div{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+.weeks span{display:block;width:100%;border-radius:8px 8px 3px 3px;background:linear-gradient(180deg,var(--orange),rgba(242,107,94,.35))}
+.weeks small{font:11px var(--f-mono);color:var(--faint);white-space:nowrap}
+.bars{display:flex;flex-direction:column;gap:9px;margin-top:4px}
+.bars .r{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center;font-size:13.5px}
+.bars .t{grid-column:1/-1;height:6px;border-radius:6px;background:rgba(255,255,255,.07);overflow:hidden}
+.bars .t i{display:block;height:100%;border-radius:6px;background:linear-gradient(90deg,var(--violet),var(--magenta),var(--orange))}
+.bars b{font:600 12px var(--f-mono);color:var(--fg)}
+.lenslist{display:flex;flex-direction:column;gap:8px;margin-top:4px}
+.lenslist div{display:flex;align-items:center;gap:10px;font-size:14px}
+.lenslist i{width:10px;height:10px;border-radius:50%;flex:none}
+.lenslist span{color:var(--muted);margin-left:auto;font:12px var(--f-mono)}
+@media (max-width:980px){.bento{grid-template-columns:repeat(6,minmax(0,1fr))}.feat{grid-column:span 6;grid-row:auto;min-height:340px}}
+@media (max-width:560px){.bento{grid-template-columns:minmax(0,1fr)}.feat,.span3{grid-column:auto}}
+
+/* constellation */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.map{position:relative;aspect-ratio:16/9.3;max-width:100%;overflow:hidden;border-radius:28px}
+.map canvas.ridge{position:absolute;left:0;right:0;bottom:0;width:100%;height:42%;opacity:.55;pointer-events:none}
+.map svg{position:absolute;inset:0;width:100%;height:100%}
+.map svg line{stroke:rgba(255,255,255,.14);stroke-width:1.1;vector-effect:non-scaling-stroke}
+.map svg line.link{stroke:var(--orange);stroke-width:1.5;stroke-dasharray:4 5;animation:dash 1.2s linear infinite;filter:drop-shadow(0 0 4px var(--orange))}
+@keyframes dash{to{stroke-dashoffset:-18}}
+.hub{position:absolute;transform:translate(-50%,-50%);text-align:center;pointer-events:none}
+.hub b{display:block;font:400 clamp(16px,1.8vw,24px)/1.05 var(--f-display);letter-spacing:-.02em}
+.hub span{font:10.5px var(--f-mono);color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.hub i{display:block;width:8px;height:8px;border-radius:50%;margin:6px auto 0;box-shadow:0 0 14px currentColor}
+.node{position:absolute;transform:translate(-50%,-50%);display:flex;align-items:center;gap:8px;border:1px solid var(--stroke);background:rgba(26,19,32,.72);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:var(--fg);border-radius:999px;padding:6px 13px 6px 7px;font:13px/1.2 var(--f-body);cursor:pointer;white-space:nowrap;transition:opacity .25s,border-color .2s,transform .2s,box-shadow .2s}
+.node i{font:600 10px var(--f-mono);font-style:normal;color:var(--bg);border-radius:999px;padding:3px 6px}
+.node:hover,.node.sel{border-color:var(--stroke-hi);box-shadow:0 0 0 4px rgba(255,154,82,.14);transform:translate(-50%,-50%) scale(1.05)}
+.node.dim{opacity:.2}
+.node.hit{border-color:rgba(255,154,82,.7);box-shadow:0 0 22px -2px rgba(255,154,82,.55)}
+.panel{position:absolute;top:16px;right:16px;bottom:16px;width:min(360px,calc(100% - 32px));padding:22px;display:flex;flex-direction:column;gap:12px;overflow:auto;background:rgba(26,19,32,.86)}
+.panel h3{font-size:28px;font-weight:400;letter-spacing:-.02em}
+.panel .meta{font:12px var(--f-mono);color:var(--muted)}
+.panel .track{font-size:14px;color:var(--muted)}
+.panel .latest{border-top:1px dashed var(--stroke);padding-top:12px;font-size:14px}
+.panel .latest a{display:block;margin-top:4px}
+.panel .row{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--stroke);background:var(--glass);color:var(--fg);border-radius:999px;padding:8px 14px;font:13px var(--f-body);text-decoration:none;cursor:pointer}
+.btn.pri{background:linear-gradient(135deg,var(--orange),var(--coral));border-color:transparent;color:var(--on-orange);font-weight:600}
+.close{position:absolute;top:12px;right:12px;border:0;background:none;color:var(--muted);font-size:20px;cursor:pointer;width:32px;height:32px}
+.list{display:none}
+@media (max-width:980px){
+  .map{display:none}
+  .list{display:grid;gap:22px}
+  .list .grp h3{font-size:22px;font-weight:400;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+  .list .grp h3 i{width:9px;height:9px;border-radius:50%}
+  .list .item{display:block;width:100%;text-align:left;border:1px solid var(--stroke);background:var(--glass);color:var(--fg);border-radius:16px;padding:12px 14px;margin-bottom:8px;cursor:pointer;font:15px var(--f-body);transition:opacity .25s}
+  .list .item small{display:block;color:var(--muted);font:12px var(--f-mono);margin-top:2px}
+  .list .item.dim{opacity:.3}
+  .list .item.hit{border-color:rgba(255,154,82,.6)}
+  .list .item .more{display:none;margin-top:10px;color:var(--muted);font-size:14px;white-space:normal}
+  .list .item.open .more{display:block}
+  .top nav{display:none}
+}
+
+/* feed */
+.feed{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}
+.post{display:flex;flex-direction:column;gap:12px;min-width:0;text-decoration:none;padding:20px;border-radius:22px;transition:border-color .2s,transform .2s}
+.post:hover{border-color:var(--stroke-hi);transform:translateY(-3px)}
+.post .h{display:flex;justify-content:space-between;align-items:center;gap:12px;font:12px var(--f-mono);color:var(--muted)}
+.post .src{display:flex;align-items:center;gap:8px;color:var(--fg)}
+.post .src i{width:8px;height:8px;border-radius:50%;box-shadow:0 0 10px currentColor}
+.post p{font:400 18px/1.3 var(--f-display);letter-spacing:-.01em}
+.post .kind{font:11px var(--f-mono);color:var(--faint);text-transform:uppercase;letter-spacing:.1em;margin-top:auto}
+.post .new{font:600 10px var(--f-mono);letter-spacing:.1em;color:var(--on-orange);background:var(--orange);padding:3px 8px;border-radius:999px}
+.nofeed{margin-top:16px;font-size:14px;color:var(--muted)}
+.stamp{font:12px var(--f-mono);color:var(--muted);display:flex;align-items:center;gap:8px}
+.stamp::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--orange);box-shadow:0 0 10px var(--orange);animation:pulse 2.4s infinite}
+
+/* rhythm */
+.rhythm{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.beat{padding:22px;display:flex;flex-direction:column;gap:8px;border-radius:22px}
+.beat .mono{font-size:11.5px;letter-spacing:.12em}
+.beat h3{font-size:30px;font-weight:300;letter-spacing:-.03em}
+.beat p{color:var(--muted);font-size:14.5px}
+.beat .bar{height:4px;border-radius:4px;margin-top:auto}
+@media (max-width:860px){.rhythm{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:460px){.rhythm{grid-template-columns:minmax(0,1fr)}}
+footer{border-top:1px solid var(--stroke);padding-block:26px;color:var(--faint);font:12px var(--f-mono)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+</head>
+<body>
+<div class="sky" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<header class="wrap top">
+  <div class="brand"><i aria-hidden="true"></i>AI × PRODUCT DESIGN</div>
+  <nav class="glass" aria-label="Sections"><a href="#pulse">Pulse</a><a href="#map">Source map</a><a href="#feed">Latest</a><a href="#rhythm">Rhythm</a></nav>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+  <div class="beam" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="tagrow"><span class="tag">Living research guide</span><span class="tag"><b>14</b> active sources</span><span class="tag"><b>5</b> lenses</span><span class="tag"><b>●</b> <span id="updTag">Updated daily</span></span></div>
+    <h1 id="h1">Be a <span class="hl">human</span><br>in the loop.</h1>
+    <p class="sub">What’s new in AI and product design? Ask a question and the guide points you to the sources worth following, with their newest posts.</p>
+    <form class="prompt glass" id="ask">
+      <span class="caret" aria-hidden="true">›</span>
+      <label for="q" hidden>Ask the guide</label>
+      <textarea id="q" rows="1" placeholder="What’s happening with AI agents in design?"></textarea>
+      <button class="send" id="send" type="submit" aria-label="Ask">↑</button>
+    </form>
+    <div class="chips" id="suggest" aria-label="Suggested questions"></div>
+    <div class="thread" id="thread" aria-live="polite"></div>
+  </div>
+</section>
+
+<section id="pulse">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">The pulse</p><h2>The guide right now</h2></div><p class="stamp" id="stamp"></p></div>
+    <div class="bento">
+      <a class="tile glass feat" id="feat" target="_blank" rel="noopener"><canvas id="featSky" aria-hidden="true"></canvas></a>
+      <div class="tile glass span3">
+        <p class="lbl"><span>Sources</span><span>Active</span></p>
+        <div class="orb">14</div>
+        <p class="small">streams across newsletters, podcasts, research, platforms, LinkedIn and creator channels</p>
+      </div>
+      <div class="tile glass span3" id="postsTile"></div>
+      <div class="tile glass span3" id="themesTile"></div>
+      <div class="tile glass span3" id="lensTile"></div>
+    </div>
+  </div>
+</section>
+
+<section id="map">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">Source map</p><h2>Five lenses, fourteen streams</h2></div>
+      <p class="lede">Each source sits under the question it helps answer. Pick a theme to see which sources converge on it, or open a source for its latest post.</p>
+    </div>
+    <div class="filters" id="filters" role="group" aria-label="Filter by theme"></div>
+    <div class="map glass" id="stage">
+      <canvas class="ridge" id="mapSky" aria-hidden="true"></canvas>
+      <svg id="lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+    </div>
+    <div class="list" id="list"></div>
+  </div>
+</section>
+
+<section id="feed">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">Latest from the sources</p><h2>What changed recently</h2></div>
+      <p class="lede">Newest posts, episodes and research from the guide’s sources, newest first.</p>
+    </div>
+    <div class="filters" id="feedFilters" role="group" aria-label="Filter feed by lens"></div>
+    <div class="feed" id="posts"></div>
+    <p class="nofeed">Rebuilt every morning by a GitHub Action that reads each source’s RSS feed. TJ Pitre, Rajan Dube and Ansh Mehra post on LinkedIn, Instagram and YouTube, which have no public feed, so follow them there. <a id="repoLink" hidden target="_blank" rel="noopener">See the code ↗</a></p>
+  </div>
+</section>
+
+<section id="rhythm">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Using the guide</p><h2>A reading rhythm</h2></div></div>
+    <div class="rhythm">
+      <div class="beat glass"><span class="mono" style="color:var(--orange)">DAILY</span><h3>5 minutes</h3><p>TLDR Design</p><span class="bar" style="background:var(--orange)"></span></div>
+      <div class="beat glass"><span class="mono" style="color:var(--coral)">WEEKLY</span><h3>One hour</h3><p>AI for UX round-up, UX for AI, Design with AI, AI and Design podcast</p><span class="bar" style="background:var(--coral)"></span></div>
+      <div class="beat glass"><span class="mono" style="color:var(--magenta)">MONTHLY</span><h3>Deep dives</h3><p>NN/g, Designlab, Shape of AI, Figma Blog, Expo, Design Better</p><span class="bar" style="background:var(--magenta)"></span></div>
+      <div class="beat glass"><span class="mono" style="color:var(--violet)">IN YOUR FEED</span><h3>Follow</h3><p>TJ Pitre, Rajan Dube, Ansh Mehra</p><span class="bar" style="background:var(--violet)"></span></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>AI × Product Design · a living research guide by Simrin</span><span>VCS Project 2 · October 2026</span></div></footer>
+
+<script>
+let LENSES={}, THEMES={}, SOURCES=[], FEED=[], REFRESHED="", REPO=null;
+let byId = {};
+const $ = s=>document.querySelector(s);
+const el = (tag, attrs={}, ...kids)=>{const e=document.createElement(tag);for(const[k,v]of Object.entries(attrs)){if(k==="class")e.className=v;else if(k.startsWith("on"))e.addEventListener(k.slice(2),v);else e.setAttribute(k,v)}for(const c of kids){if(c!=null)e.append(c)}return e};
+const fmtDate = d=>new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});
+const dot = c=>el("i",{style:`background:${c};color:${c}`});
+
+/* ---------- generative dusk ridges (canvas) ---------- */
+function rng(seed){return()=>{seed=(seed*16807)%2147483647;return(seed-1)/2147483646}}
+function ridges(cv, seed, opts={}){
+  const draw=()=>{
+    const r=cv.getBoundingClientRect(), dpr=Math.min(devicePixelRatio||1,2);
+    if(!r.width||!r.height)return;
+    cv.width=r.width*dpr; cv.height=r.height*dpr;
+    const g=cv.getContext("2d"); g.setTransform(dpr,0,0,dpr,0,0);
+    const W=r.width,H=r.height, R=rng(seed);
+    if(!opts.noSky){
+      const sky=g.createLinearGradient(0,0,0,H);
+      sky.addColorStop(0,"#2B1B3D");sky.addColorStop(.45,"#7A3B6B");sky.addColorStop(.75,"#E5735A");sky.addColorStop(1,"#FFB27A");
+      g.fillStyle=sky;g.fillRect(0,0,W,H);
+      const sx=W*(.6+R()*.25), sy=H*.62;
+      const sun=g.createRadialGradient(sx,sy,0,sx,sy,H*.5);
+      sun.addColorStop(0,"rgba(255,226,190,.95)");sun.addColorStop(.12,"rgba(255,190,130,.6)");sun.addColorStop(1,"rgba(255,150,90,0)");
+      g.fillStyle=sun;g.fillRect(0,0,W,H);
+    }
+    const layers=opts.layers||[["rgba(214,120,140,.55)",.50],["rgba(150,70,110,.75)",.60],["rgba(80,38,72,.92)",.72],["#1E1424",.84]];
+    layers.forEach(([col,base],li)=>{
+      const amp=H*(.16-li*.025), pts=[], n=9+li*3;
+      for(let i=0;i<=n;i++)pts.push([W*i/n,H*base-R()*amp-(Math.sin(i*1.7+seed)*amp*.3)]);
+      g.beginPath();g.moveTo(0,H);g.lineTo(pts[0][0],pts[0][1]);
+      for(let i=1;i<pts.length;i++){const[x0,y0]=pts[i-1],[x1,y1]=pts[i];const mx=(x0+x1)/2;g.quadraticCurveTo(x0,y0,mx,(y0+y1)/2);}
+      g.lineTo(W,pts[pts.length-1][1]);g.lineTo(W,H);g.closePath();g.fillStyle=col;g.fill();
+    });
+  };
+  draw(); if(window.ResizeObserver) new ResizeObserver(draw).observe(cv);
+}
+
+/* ---------- bento ---------- */
+function buildBento(){
+  const dated=FEED.filter(f=>f.date).sort((a,b)=>b.date.localeCompare(a.date));
+  const top=dated[0], s=byId[top.src];
+  const feat=$("#feat"); feat.href=top.url;
+  feat.append(el("p",{class:"lbl"},el("span",{},"Newest in the guide"),el("span",{},fmtDate(top.date))),
+    el("span",{class:"pill"},"NEW"),
+    el("h3",{},top.title),
+    el("p",{class:"meta"},el("span",{},s.name),el("span",{},top.kind),el("span",{},"Read ↗")));
+  ridges($("#featSky"),7);
+
+  // posts per week (3 most recent weeks ending Oct 18)
+  const day=n=>{const d=new Date(REFRESHED+"T12:00:00");d.setDate(d.getDate()-n);return d.toISOString().slice(0,10)};
+  const weeks=[[20,14],[13,7],[6,0]].map(([a,b])=>[fmtDate(day(a)),day(a),day(b)]);
+  const counts=weeks.map(([,a,b])=>dated.filter(f=>f.date>=a&&f.date<=b).length);
+  const max=Math.max(...counts), total=counts.reduce((a,b)=>a+b,0);
+  const wk=el("div",{class:"weeks","aria-label":counts.map((c,i)=>`Week of ${weeks[i][0]}: ${c} posts`).join(", ")});
+  counts.forEach((c,i)=>wk.append(el("div",{},el("small",{},String(c)),el("span",{style:`height:${Math.max(8,c/max*52)}px`}),el("small",{},weeks[i][0]))));
+  $("#postsTile").append(el("p",{class:"lbl"},el("span",{},"Posts tracked"),el("span",{},"21 days")),el("p",{class:"big"},String(total)),el("p",{class:"small"},"posts and episodes in the last three weeks"),wk);
+
+  const th=$("#themesTile"); th.append(el("p",{class:"lbl"},el("span",{},"Converging on"),el("span",{},"Sources")));
+  const bars=el("div",{class:"bars"});
+  Object.entries(THEMES).map(([k,v])=>[v,SOURCES.filter(s=>s.tags.includes(k)).length]).sort((a,b)=>b[1]-a[1]).forEach(([v,n])=>{
+    bars.append(el("div",{class:"r"},el("span",{},v),el("b",{},String(n)),el("span",{class:"t"},el("i",{style:`width:${n/5*100}%`}))));
+  });
+  th.append(bars);
+
+  const lt=$("#lensTile"); lt.append(el("p",{class:"lbl"},el("span",{},"Lenses"),el("span",{},"Sources")));
+  const ll=el("div",{class:"lenslist"});
+  for(const[k,l]of Object.entries(LENSES)) ll.append(el("div",{},dot(l.c),l.name,el("span",{},String(SOURCES.filter(s=>s.lens===k).length))));
+  lt.append(ll, el("p",{class:"small",style:"margin-top:auto"},"Daily to monthly, from research labs to individual designers."));
+  $("#stamp").textContent="Refreshed "+new Date(REFRESHED+"T12:00:00").toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"});
+}
+
+/* ---------- source map ---------- */
+let theme=null;
+const stage=$("#stage"), svg=$("#lines");
+const pos=s=>({x:LENSES[s.lens].x+s.dx, y:LENSES[s.lens].y+s.dy});
+function drawMap(){
+  for(const l of Object.values(LENSES)) stage.append(el("div",{class:"hub",style:`left:${l.x}%;top:${l.y}%`},el("span",{},l.q),el("b",{},l.name),el("i",{style:`background:${l.c};color:${l.c}`})));
+  for(const s of SOURCES){const p=pos(s);stage.append(el("button",{class:"node",type:"button","data-id":s.id,style:`left:${p.x}%;top:${p.y}%`,onclick:()=>select(s.id)},el("i",{style:`background:${LENSES[s.lens].c}`},s.n),s.name))}
+  const list=$("#list");
+  for(const[k,l]of Object.entries(LENSES)){
+    const g=el("div",{class:"grp"},el("p",{class:"eyebrow"},l.q),el("h3",{},dot(l.c),l.name));
+    for(const s of SOURCES.filter(s=>s.lens===k)){
+      const it=el("button",{class:"item",type:"button","data-id":s.id},s.name,el("small",{},`[${s.n}] ${s.fmt}`),el("span",{class:"more"},s.desc+" ",el("a",{href:s.url,target:"_blank",rel:"noopener"},"Open source ↗")));
+      it.addEventListener("click",e=>{if(e.target.tagName!=="A")it.classList.toggle("open")});
+      g.append(it);
+    }
+    list.append(g);
+  }
+  ridges($("#mapSky"),3,{noSky:true,layers:[["rgba(212,90,147,.18)",.35],["rgba(154,125,245,.16)",.55],["rgba(255,154,82,.14)",.75]]});
+  renderLines();
+}
+function renderLines(){
+  svg.textContent=""; const NS="http://www.w3.org/2000/svg";
+  const line=(a,b,cls)=>{const ln=document.createElementNS(NS,"line");ln.setAttribute("x1",a.x);ln.setAttribute("y1",a.y);ln.setAttribute("x2",b.x);ln.setAttribute("y2",b.y);if(cls)ln.setAttribute("class",cls);svg.append(ln)};
+  for(const s of SOURCES){const h=LENSES[s.lens];line({x:h.x,y:h.y+3},pos(s))}
+  if(theme){const hits=SOURCES.filter(s=>s.tags.includes(theme));for(let i=0;i<hits.length;i++)for(let j=i+1;j<hits.length;j++){if(hits[i].lens!==hits[j].lens)line(pos(hits[i]),pos(hits[j]),"link")}}
+}
+function applyTheme(){
+  document.querySelectorAll(".node,.list .item").forEach(n=>{const s=byId[n.dataset.id],on=!theme||s.tags.includes(theme);n.classList.toggle("dim",!on);n.classList.toggle("hit",!!theme&&on)});
+  document.querySelectorAll("#filters .chip").forEach(c=>c.classList.toggle("on",(c.dataset.t||null)===theme));
+  renderLines();
+}
+function buildFilters(){
+  const f=$("#filters");
+  const mk=(t,label)=>{const n=SOURCES.filter(s=>!t||s.tags.includes(t)).length;const c=el("button",{class:"chip",type:"button",onclick:()=>{theme=t;applyTheme()}},`${label} · ${n}`);if(t)c.dataset.t=t;f.append(c)};
+  mk(null,"All sources");for(const[k,v]of Object.entries(THEMES))mk(k,v);
+  applyTheme();
+}
+function latestFor(id){return FEED.find(f=>f.src===id&&f.date)||FEED.find(f=>f.src===id)}
+function select(id){
+  document.querySelectorAll(".node").forEach(n=>n.classList.toggle("sel",n.dataset.id===id));
+  stage.querySelector(".panel")?.remove();
+  const s=byId[id], l=latestFor(id);
+  const panel=el("div",{class:"panel glass",role:"dialog","aria-label":s.name},
+    el("button",{class:"close",type:"button","aria-label":"Close",onclick:()=>{panel.remove();document.querySelectorAll(".node.sel").forEach(n=>n.classList.remove("sel"))}},"×"),
+    el("p",{class:"eyebrow",style:`color:${LENSES[s.lens].c}`},`[${s.n}] · ${LENSES[s.lens].name}`),
+    el("h3",{},s.name),
+    el("p",{class:"meta"},`${s.fmt} · ${s.cad}`),
+    el("p",{},s.desc),
+    el("p",{class:"track"},"Track: "+s.track),
+    l?el("div",{class:"latest"},el("span",{class:"meta"},"Latest · "+(l.date?fmtDate(l.date):l.label)),el("a",{href:l.url,target:"_blank",rel:"noopener"},l.title+" ↗")):el("div",{class:"latest"},el("span",{class:"meta"},"No public feed. Follow on "+s.fmt+".")),
+    el("div",{class:"row"},el("a",{class:"btn pri",href:s.url,target:"_blank",rel:"noopener"},"Open source ↗"),el("button",{class:"btn",type:"button",onclick:()=>{ask(`What should I know about ${s.name}, and what has it covered lately?`);document.getElementById("h1").scrollIntoView({behavior:"smooth"})}},"Ask about it"))
+  );
+  stage.append(panel);
+}
+
+/* ---------- feed ---------- */
+let feedLens=null;
+function renderFeed(){
+  const box=$("#posts");box.textContent="";
+  const recent=FEED.filter(f=>f.date).map(f=>f.date).sort().reverse()[2];
+  for(const f of FEED.filter(f=>!feedLens||byId[f.src].lens===feedLens)){
+    const s=byId[f.src], c=LENSES[s.lens].c;
+    box.append(el("a",{class:"post glass",href:f.url,target:"_blank",rel:"noopener"},
+      el("div",{class:"h"},el("span",{class:"src"},el("i",{style:`background:${c};color:${c}`}),s.name),f.date&&f.date>=recent?el("span",{class:"new"},"NEW"):el("span",{},f.date?fmtDate(f.date):f.label)),
+      el("p",{},f.title),
+      el("span",{class:"kind"},`${f.kind}${f.date?" · "+fmtDate(f.date):""} · ${LENSES[s.lens].name}`)));
+  }
+  document.querySelectorAll("#feedFilters .chip").forEach(c=>c.classList.toggle("on",(c.dataset.l||null)===feedLens));
+}
+function buildFeedFilters(){
+  const f=$("#feedFilters");
+  const mk=(k,label)=>{const c=el("button",{class:"chip",type:"button",onclick:()=>{feedLens=k;renderFeed()}},label);if(k)c.dataset.l=k;f.append(c)};
+  mk(null,"Everything");for(const[k,l]of Object.entries(LENSES))mk(k,l.name);
+  renderFeed();
+}
+
+/* ---------- chat ---------- */
+const SUGGEST=["What’s happening with AI agents in design?","Which source should I read first?","Who’s writing about trust in AI products?","What changed this week?"];
+const history=[]; let busy=false, samplePromise=null;
+function getSample(){if(!samplePromise)samplePromise=(window.claude&&window.claude.use)?window.claude.use("sample").catch(()=>null):Promise.resolve(null);return samplePromise}
+function context(){
+  const src=SOURCES.map(s=>`[${s.id}] ${s.name} (${s.fmt}; ${s.cad}; lens: ${LENSES[s.lens].name}). ${s.desc} Tracks: ${s.track}. URL: ${s.url}`).join("\n");
+  const feed=FEED.map(f=>`[${f.src}] ${f.date||f.label}: ${f.title}`).join("\n");
+  return `You are the chat assistant inside "AI × Product Design", a living research guide made by a design student. The guide organizes 14 active sources into five lenses: Patterns, Research, Building, Voices, Pulse. Today is ${REFRESHED}.
+
+SOURCES:
+${src}
+
+LATEST POSTS (refreshed ${REFRESHED}):
+${feed}
+
+How to answer:
+- Answer in 2 to 5 short sentences of plain text, under 110 words. No markdown, no headings, no bullet lists.
+- Point the reader to specific sources and, where relevant, specific recent posts listed above.
+- Cite a source right after the claim it supports with its id in square brackets, exactly as listed, e.g. [nng] or [figma]. Use only these ids.
+- Only describe what a source covers or published using the information above. Do not invent posts, dates, quotes or statistics.
+- If the question is outside AI and product design, say briefly what the guide covers instead.`;
+}
+function renderAnswer(body,text){
+  body.textContent=""; const re=/\[([a-z]+)\]/g; let last=0,m; const used=[];
+  while((m=re.exec(text))){
+    body.append(text.slice(last,m.index)); const s=byId[m[1]];
+    if(s){body.append(el("button",{class:"cite",type:"button",title:s.name,onclick:()=>{document.getElementById("map").scrollIntoView({behavior:"smooth"});select(s.id)}},s.n));if(!used.includes(s.id))used.push(s.id)}
+    else body.append(m[0]);
+    last=re.lastIndex;
+  }
+  body.append(text.slice(last)); return used;
+}
+function sourceRow(ids){return ids.length?el("div",{class:"srcs"},...ids.map(id=>el("a",{href:byId[id].url,target:"_blank",rel:"noopener"},`[${byId[id].n}] ${byId[id].name} ↗`))):null}
+function localAnswer(q){
+  const words=q.toLowerCase().match(/[a-z]+/g)||[];
+  const stop=new Set(["what","the","is","are","in","of","to","a","and","about","who","which","should","i","how","with","for","on","s","writing","happening","read","first","this","week","me","do","does"]);
+  const keys=words.filter(w=>w.length>2&&!stop.has(w));
+  const score=s=>{const hay=(s.name+" "+s.desc+" "+s.track+" "+s.tags.map(t=>THEMES[t]).join(" ")+" "+LENSES[s.lens].name).toLowerCase();return keys.reduce((n,k)=>n+(hay.includes(k.replace(/s$/,""))?1:0),0)};
+  let ranked=SOURCES.map(s=>[score(s),s]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]).slice(0,3);
+  if(/week|new|latest|changed|recent/.test(q.toLowerCase()))ranked=[byId.aiforux,byId.tldr,byId.nng];
+  if(!ranked.length)ranked=[byId.shape,byId.nng,byId.aiforux];
+  return "From the guide: "+ranked.map(s=>{const l=latestFor(s.id);return `${s.name} covers ${s.track} [${s.id}]`+(l&&l.date?`, most recently “${l.title}”.`:".")}).join(" ");
+}
+async function ask(q){
+  q=q.trim(); if(!q||busy)return;
+  busy=true;$("#send").disabled=true;$("#q").value="";fit();
+  const thread=$("#thread"); thread.append(el("div",{class:"msg q"},q));
+  const status=el("div",{class:"status"},"Reading 14 sources…"), body=el("div",{class:"body"}), box=el("div",{class:"msg a glass busy"},status,body);
+  thread.append(box);
+  const sample=await getSample(); let text="", offline=false;
+  if(sample){
+    const turns=[...history,{role:"user",content:(history.length?"":context()+"\n\nQuestion: ")+q}];
+    try{const r=await sample(turns,{cache:false,modelTier:"quick",onText:({text:t})=>{status.textContent="Answering from the guide";renderAnswer(body,t)}});text=r.text;history.push(turns[turns.length-1],{role:"assistant",content:text})}
+    catch(e){if(e&&e.text)text=e.text;else offline=true}
+  } else offline=true;
+  if(offline){text=localAnswer(q);status.textContent="Quick answer from the guide’s index"}
+  else status.textContent="Answered from the guide’s sources";
+  const used=renderAnswer(body,text); box.classList.remove("busy");
+  const row=sourceRow(used); if(row)box.append(row);
+  box.append(el("p",{class:"disclose"},offline?"Matched from this guide’s source list and latest posts.":"AI-generated from this guide’s source list. Open the source before quoting it."));
+  busy=false;$("#send").disabled=false;
+}
+function fit(){const t=$("#q");t.style.height="auto";t.style.height=Math.min(t.scrollHeight,160)+"px"}
+$("#q").addEventListener("input",fit);
+$("#q").addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask($("#q").value)}});
+$("#ask").addEventListener("submit",e=>{e.preventDefault();ask($("#q").value)});
+for(const s of SUGGEST)$("#suggest").append(el("button",{class:"chip",type:"button",onclick:()=>ask(s)},s));
+(function(){const t=$("#q");let i=0;if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;setInterval(()=>{if(document.activeElement===t||t.value)return;i=(i+1)%SUGGEST.length;t.placeholder=SUGGEST[i]},3500)})();
+
+
+async function boot(){
+  try{
+    const [cfg,feed]=await Promise.all([fetch("data/sources.json",{cache:"no-store"}).then(r=>r.json()),fetch("data/feed.json",{cache:"no-store"}).then(r=>r.json())]);
+    LENSES=cfg.lenses; THEMES=cfg.themes; SOURCES=cfg.sources; REPO=cfg.repo||null;
+    REFRESHED=(feed.updated||new Date().toISOString()).slice(0,10);
+    const pins=SOURCES.flatMap(s=>(s.pinned||[]).map(p=>({...p,src:s.id,date:null})));
+    FEED=[...feed.items.filter(i=>SOURCES.some(s=>s.id===i.src)),...pins];
+    byId=Object.fromEntries(SOURCES.map(s=>[s.id,s]));
+  }catch(e){
+    document.getElementById("posts").textContent="The guide’s data didn’t load. Open the site through its web address (not as a local file), or run npm start.";
+    return;
+  }
+  const upd=new Date(REFRESHED+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});
+  document.getElementById("updTag").textContent="Updated "+upd;
+  if(REPO){const a=document.getElementById("repoLink");a.href=REPO;a.hidden=false}
+  buildBento(); drawMap(); buildFilters(); buildFeedFilters();
+}
+boot();
+</script>
+</body>
+</html>

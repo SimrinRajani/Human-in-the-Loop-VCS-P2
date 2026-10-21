@@ -1,0 +1,434 @@
+{
+  "title": "AI × Product Design",
+  "lenses": {
+    "patterns": {
+      "name": "Patterns",
+      "q": "What will AI interfaces look like?",
+      "x": 18,
+      "y": 28,
+      "c": "var(--violet)"
+    },
+    "research": {
+      "name": "Research",
+      "q": "Does it work for people?",
+      "x": 50,
+      "y": 17,
+      "c": "var(--cyan)"
+    },
+    "building": {
+      "name": "Building",
+      "q": "How do products get built now?",
+      "x": 82,
+      "y": 29,
+      "c": "var(--orange)"
+    },
+    "voices": {
+      "name": "Voices",
+      "q": "What are designers trying?",
+      "x": 31,
+      "y": 70,
+      "c": "var(--magenta)"
+    },
+    "pulse": {
+      "name": "Pulse",
+      "q": "What changed this week?",
+      "x": 72,
+      "y": 72,
+      "c": "var(--coral)"
+    }
+  },
+  "themes": {
+    "agents": "Agents & MCP",
+    "workflows": "Workflows & careers",
+    "trust": "Trust & judgment",
+    "code": "Design-to-code",
+    "systems": "Design systems"
+  },
+  "sources": [
+    {
+      "id": "shape",
+      "n": "01",
+      "name": "The Shape of AI",
+      "fmt": "Pattern library + newsletter",
+      "cad": "Ongoing",
+      "lens": "patterns",
+      "url": "https://www.shapeof.ai/",
+      "tags": [
+        "trust"
+      ],
+      "dx": -9,
+      "dy": -13,
+      "desc": "A visual library of emerging UX patterns for AI products, organized around wayfinding, inputs, tuning, human oversight, trust and AI identifiers.",
+      "track": "AI interaction patterns, trust, control, AI-native UI",
+      "feeds": [
+        "https://shapeofai.substack.com/feed"
+      ],
+      "home": "https://www.shapeof.ai/",
+      "kind": "Post",
+      "pinned": [
+        {
+          "label": "Reference",
+          "title": "Browse the full AI pattern library",
+          "url": "https://www.shapeof.ai/",
+          "kind": "Pattern library"
+        }
+      ]
+    },
+    {
+      "id": "uxforai",
+      "n": "13",
+      "name": "UX for AI",
+      "fmt": "Weekly publication + framework · Greg Nudelman",
+      "cad": "Weekly",
+      "lens": "patterns",
+      "url": "https://uxforai.com/",
+      "tags": [
+        "agents"
+      ],
+      "dx": 3,
+      "dy": 15,
+      "desc": "A dedicated stream on AI product strategy and UX: prompt design, agentic UX, conversational interfaces and the decisions that make AI feel useful and controllable.",
+      "track": "AI product strategy, agents, conversational UX",
+      "feeds": [
+        "https://uxforai.com/feed"
+      ],
+      "home": "https://uxforai.com/",
+      "kind": "Newsletter"
+    },
+    {
+      "id": "nng",
+      "n": "04",
+      "name": "Nielsen Norman Group",
+      "fmt": "Research publication + videos",
+      "cad": "Several per week",
+      "lens": "research",
+      "url": "https://www.nngroup.com/topic/ai/",
+      "tags": [
+        "trust"
+      ],
+      "dx": -14,
+      "dy": 11,
+      "desc": "Research-backed UX guidance on AI, including AI-assisted UX work, human judgment, trust, prototyping and the usability problems created by generative systems.",
+      "track": "UX research, usability, human judgment, AI behavior",
+      "feeds": [
+        "https://www.nngroup.com/feed/rss/"
+      ],
+      "home": "https://www.nngroup.com/topic/ai/",
+      "kind": "Article",
+      "match": [
+        "AI",
+        "agent",
+        "agentic",
+        "LLM",
+        "generative",
+        "synthetic",
+        "chatbot",
+        "prompt",
+        "Copilot",
+        "Siri",
+        "context",
+        "MCP",
+        "Claude",
+        "Cursor",
+        "code layers",
+        "vibe",
+        "Figma Make"
+      ]
+    },
+    {
+      "id": "designlab",
+      "n": "05",
+      "name": "Designlab",
+      "fmt": "Publication + video + survey research",
+      "cad": "Annual survey, ongoing blog",
+      "lens": "research",
+      "url": "https://designlab.com/blog/ai-in-ux-product-design-trends-2026",
+      "tags": [
+        "workflows"
+      ],
+      "dx": 0,
+      "dy": 16,
+      "desc": "Tracks how working UX and product designers actually adopt AI. Its 2026 survey and panels cover workflow changes, quality concerns and emerging skills.",
+      "track": "Industry adoption, surveys, workflow shifts, design careers",
+      "feeds": [
+        "https://designlab.com/blog/rss.xml"
+      ],
+      "home": "https://designlab.com/blog",
+      "kind": "Article",
+      "match": [
+        "AI",
+        "agent",
+        "agentic",
+        "LLM",
+        "generative",
+        "synthetic",
+        "chatbot",
+        "prompt",
+        "Copilot",
+        "Siri",
+        "context",
+        "MCP",
+        "Claude",
+        "Cursor",
+        "code layers",
+        "vibe",
+        "Figma Make"
+      ],
+      "pinned": [
+        {
+          "label": "2026 report",
+          "title": "The State of AI in UX & Product Design: 2026",
+          "url": "https://designlab.com/blog/ai-in-ux-product-design-trends-2026",
+          "kind": "Survey"
+        }
+      ]
+    },
+    {
+      "id": "aianddesign",
+      "n": "02",
+      "name": "AI and Design",
+      "fmt": "Weekly podcast · Dan Saffer & Nik Martelaro",
+      "cad": "Weekly",
+      "lens": "research",
+      "url": "https://podcasts.apple.com/us/podcast/ai-and-design/id1868571210",
+      "tags": [],
+      "dx": 14,
+      "dy": 11,
+      "desc": "A weekly show from Carnegie Mellon faculty about how AI is reshaping design, at the intersection of AI, HCI and product design.",
+      "track": "AI + HCI conversations, designers and researchers, emerging ideas",
+      "feeds": [],
+      "apple": "1868571210",
+      "home": "https://aianddesignpod.com/",
+      "kind": "Episode"
+    },
+    {
+      "id": "figma",
+      "n": "03",
+      "name": "Figma Blog",
+      "fmt": "Publication + product research",
+      "cad": "Weekly",
+      "lens": "building",
+      "url": "https://www.figma.com/blog/ai/",
+      "tags": [
+        "agents",
+        "code",
+        "systems"
+      ],
+      "dx": -6,
+      "dy": -13,
+      "desc": "The company behind a core design tool, on how AI is entering prototyping, design systems, agents, design-to-code workflows and collaboration.",
+      "track": "AI tools, agents, design-to-code, design systems",
+      "feeds": [
+        "https://www.figma.com/blog/feed/atom.xml"
+      ],
+      "home": "https://www.figma.com/blog/",
+      "kind": "Article",
+      "match": [
+        "AI",
+        "agent",
+        "agentic",
+        "LLM",
+        "generative",
+        "synthetic",
+        "chatbot",
+        "prompt",
+        "Copilot",
+        "Siri",
+        "context",
+        "MCP",
+        "Claude",
+        "Cursor",
+        "code layers",
+        "vibe",
+        "Figma Make"
+      ]
+    },
+    {
+      "id": "expo",
+      "n": "12",
+      "name": "Expo",
+      "fmt": "Building platform + AI/mobile development",
+      "cad": "Ongoing",
+      "lens": "building",
+      "url": "https://expo.dev/ai",
+      "tags": [
+        "agents",
+        "code"
+      ],
+      "dx": 5,
+      "dy": 15,
+      "desc": "Pushes AI-assisted development for React Native, including agents, MCP, simulators and shipping mobile apps.",
+      "track": "AI-native mobile development, React Native, agents, shipping",
+      "feeds": [
+        "https://expo.dev/blog/rss.xml",
+        "https://expo.dev/changelog/rss.xml"
+      ],
+      "home": "https://expo.dev/blog",
+      "kind": "Post",
+      "match": [
+        "AI",
+        "agent",
+        "agentic",
+        "LLM",
+        "generative",
+        "synthetic",
+        "chatbot",
+        "prompt",
+        "Copilot",
+        "Siri",
+        "context",
+        "MCP",
+        "Claude",
+        "Cursor",
+        "code layers",
+        "vibe",
+        "Figma Make"
+      ],
+      "pinned": [
+        {
+          "label": "Reference",
+          "title": "Become an AI-native developer with the Expo MCP server",
+          "url": "https://expo.dev/blog/become-an-ai-native-developer-with-the-expo-mcp-server",
+          "kind": "Guide"
+        }
+      ]
+    },
+    {
+      "id": "designwithai",
+      "n": "06",
+      "name": "Design with AI",
+      "fmt": "Weekly newsletter",
+      "cad": "Weekly",
+      "lens": "building",
+      "url": "https://designwithai.beehiiv.com/",
+      "tags": [
+        "code",
+        "workflows"
+      ],
+      "dx": -14,
+      "dy": 10,
+      "desc": "AI-powered design and development, vibe coding, startup ideas and tools for designers moving from idea to working product.",
+      "track": "Practical tools, building, vibe coding, AI workflows",
+      "feeds": [
+        "https://designwithai.beehiiv.com/feed"
+      ],
+      "home": "https://designwithai.beehiiv.com/",
+      "kind": "Newsletter"
+    },
+    {
+      "id": "tjpitre",
+      "n": "09",
+      "name": "TJ Pitre",
+      "fmt": "LinkedIn",
+      "cad": "Frequent posts",
+      "lens": "voices",
+      "url": "https://www.linkedin.com/in/tpitre",
+      "tags": [
+        "agents",
+        "systems"
+      ],
+      "dx": -14,
+      "dy": -6,
+      "desc": "A practitioner voice on AI, design systems, Figma, agents and MCP, showing experiments beyond polished product announcements.",
+      "track": "AI agents, Figma, MCP, design systems",
+      "feeds": [],
+      "social": true
+    },
+    {
+      "id": "rajan",
+      "n": "11",
+      "name": "Rajan Dube",
+      "fmt": "LinkedIn",
+      "cad": "Frequent posts",
+      "lens": "voices",
+      "url": "https://in.linkedin.com/in/rajandube",
+      "tags": [
+        "trust"
+      ],
+      "dx": -12,
+      "dy": 13,
+      "desc": "A candid product-design voice on using AI as a collaborator rather than autocomplete, and on taste, judgment and explaining design decisions.",
+      "track": "Designer judgment, taste, AI-assisted product design",
+      "feeds": [],
+      "social": true
+    },
+    {
+      "id": "ansh",
+      "n": "10",
+      "name": "Ansh Mehra",
+      "fmt": "Instagram + YouTube",
+      "cad": "Frequent posts",
+      "lens": "voices",
+      "url": "https://anshmehra.com/",
+      "tags": [
+        "agents",
+        "workflows"
+      ],
+      "dx": 10,
+      "dy": 15,
+      "desc": "A creator and educator sharing accessible AI, UX and workflow content, showing how AI techniques are taught and turned into practical design work.",
+      "track": "AI education, UX workflows, agentic AI",
+      "feeds": [],
+      "social": true
+    },
+    {
+      "id": "designbetter",
+      "n": "08",
+      "name": "Design Better",
+      "fmt": "Podcast + publication",
+      "cad": "Weekly",
+      "lens": "voices",
+      "url": "https://www.designbetter.com/listen",
+      "tags": [],
+      "dx": 14,
+      "dy": -6,
+      "desc": "Long-form conversations with designers and creative leaders, including how AI is changing collaboration and creative practice.",
+      "track": "Design leadership, creative practice, AI conversations",
+      "feeds": [
+        "https://designbetterpodcast.com/feed"
+      ],
+      "home": "https://designbetterpodcast.com/",
+      "kind": "Episode"
+    },
+    {
+      "id": "tldr",
+      "n": "07",
+      "name": "TLDR Design",
+      "fmt": "Daily newsletter",
+      "cad": "Daily",
+      "lens": "pulse",
+      "url": "https://tldr.tech/design",
+      "tags": [],
+      "dx": -11,
+      "dy": 13,
+      "desc": "A fast daily digest of design and UI/UX tools, trends, inspiration and industry news.",
+      "track": "Fast-moving design and product news",
+      "feeds": [
+        "https://tldr.tech/api/rss/design"
+      ],
+      "home": "https://tldr.tech/design",
+      "kind": "Daily digest"
+    },
+    {
+      "id": "aiforux",
+      "n": "14",
+      "name": "AI for UX",
+      "fmt": "Substack · Patrick Neeman",
+      "cad": "Several per week + weekly round-up",
+      "lens": "pulse",
+      "url": "https://aiforux.substack.com/",
+      "tags": [
+        "workflows"
+      ],
+      "dx": 11,
+      "dy": 13,
+      "desc": "A practical, opinionated stream about how AI is changing UX work, product interfaces, research, careers and the skills designers need.",
+      "track": "AI's impact on UX craft, careers, research, interfaces",
+      "feeds": [
+        "https://aiforux.substack.com/feed"
+      ],
+      "home": "https://aiforux.substack.com/",
+      "kind": "Post"
+    }
+  ]
+}

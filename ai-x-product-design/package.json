@@ -1,0 +1,14 @@
+{
+  "name": "ai-x-product-design",
+  "version": "1.0.0",
+  "description": "A living research guide to AI x product design, rebuilt daily from its sources.",
+  "scripts": {
+    "fetch": "node scripts/fetch-feeds.mjs",
+    "start": "npx --yes serve@14.2.4 site"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "type": "module",
+  "private": true
+}

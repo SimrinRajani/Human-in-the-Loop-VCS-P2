@@ -1,0 +1,90 @@
+{
+  "updated": "2026-10-20T23:00:00Z",
+  "items": [
+    {
+      "src": "designbetter",
+      "date": "2026-10-18",
+      "title": "The Brief: The essential setup for building web apps with AI",
+      "url": "https://designbetterpodcast.com/p/the-brief-the-essential-setup-for",
+      "kind": "Newsletter"
+    },
+    {
+      "src": "aiforux",
+      "date": "2026-10-18",
+      "title": "October 12 – 18 Round Up: Interface-Last Design, Taste Versus Methodology, AI Beyond Org Charts",
+      "url": "https://aiforux.substack.com/p/october-12-october-18-round-up-interface",
+      "kind": "Weekly round-up"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-16",
+      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/",
+      "kind": "Article"
+    },
+    {
+      "src": "figma",
+      "date": "2026-10-14",
+      "title": "Design together with code layers on the canvas",
+      "url": "https://www.figma.com/blog/design-together-with-code-layers/",
+      "kind": "Product news"
+    },
+    {
+      "src": "designbetter",
+      "date": "2026-10-14",
+      "title": "Kevin Flores: Find Your Inner Rebel",
+      "url": "https://designbetterpodcast.com/p/kevin-flores",
+      "kind": "Episode"
+    },
+    {
+      "src": "aiforux",
+      "date": "2026-10-11",
+      "title": "October 5 – 11 Round Up: Synthetic Users in Research, Faster User Decisions, Interfaces That Anticipate",
+      "url": "https://aiforux.substack.com/p/october-5-october-11-round-up-synthetic",
+      "kind": "Weekly round-up"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-09",
+      "title": "Context Libraries: How AI Power Users Manage Context Engineering",
+      "url": "https://www.nngroup.com/articles/context-libraries/",
+      "kind": "Article"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-09",
+      "title": "The New Siri’s Biggest Strength Is Not Intelligence",
+      "url": "https://www.nngroup.com/articles/ai-assistant-context/",
+      "kind": "Article"
+    },
+    {
+      "src": "aianddesign",
+      "date": "2026-10-07",
+      "title": "Ep. 37: The Fastest Gun in the West, Multiplayer AI, Serious AI Products & Jeremy Belcher",
+      "url": "https://podcasts.apple.com/us/podcast/the-fastest-gun-in-the-west-multiplayer-ai-serious/id1868571210?i=1000793567281",
+      "kind": "Episode"
+    },
+    {
+      "src": "designbetter",
+      "date": "2026-10-07",
+      "title": "Randy Hunt: Notion and Etsy design leader on why the best design teams stay small",
+      "url": "https://designbetterpodcast.com/p/randy-hunt",
+      "kind": "Episode"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-02",
+      "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
+      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/",
+      "kind": "Article"
+    },
+    {
+      "src": "aianddesign",
+      "date": "2026-09-30",
+      "title": "Ep. 36: AI Sychophancy with Steve Rathje",
+      "url": "https://podcasts.apple.com/us/podcast/ai-sychophancy-with-steve-rathje/id1868571210?i=1000792362515",
+      "kind": "Episode"
+    }
+  ],
+  "status": {}
+}
