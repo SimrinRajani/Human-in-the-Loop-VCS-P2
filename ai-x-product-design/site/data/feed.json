@@ -1,12 +1,33 @@
 {
-  "updated": "2026-10-20T23:00:00Z",
+  "updated": "2026-10-21T03:15:40.744Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-10-20",
+      "title": "Windows Photos 🖼️, Replit Switch 🔄, WhatsApp Stickers 🔊",
+      "url": "https://tldr.tech/design/2026-10-20",
+      "kind": "Daily digest"
+    },
+    {
+      "src": "expo",
+      "date": "2026-10-19",
+      "title": "Introducing expo-app-intents: Siri, Shortcuts, Spotlight, and Apple Intelligence for Expo apps",
+      "url": "https://expo.dev/blog/introducing-expo-app-intents",
+      "kind": "Post"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-10-19",
+      "title": "App Store Safeguards 🛡️, Figma Code Layers 🧩, iPhone Duo Delays 📱",
+      "url": "https://tldr.tech/design/2026-10-19",
+      "kind": "Daily digest"
+    },
     {
       "src": "designbetter",
       "date": "2026-10-18",
       "title": "The Brief: The essential setup for building web apps with AI",
       "url": "https://designbetterpodcast.com/p/the-brief-the-essential-setup-for",
-      "kind": "Newsletter"
+      "kind": "Episode"
     },
     {
       "src": "aiforux",
@@ -16,24 +37,45 @@
       "kind": "Weekly round-up"
     },
     {
+      "src": "tldr",
+      "date": "2026-10-16",
+      "title": "Google Play Redesign 🚗, Free Office Apps 📝, Opera Air Refresh 🌐",
+      "url": "https://tldr.tech/design/2026-10-16",
+      "kind": "Daily digest"
+    },
+    {
       "src": "nng",
       "date": "2026-10-16",
       "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
-      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/",
+      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
       "src": "figma",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "title": "Design together with code layers on the canvas",
       "url": "https://www.figma.com/blog/design-together-with-code-layers/",
-      "kind": "Product news"
+      "kind": "Article"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-10-15",
+      "title": "Getty Goes Private 📸, Manus Funding 💰, Apple Health Delay ❤️",
+      "url": "https://tldr.tech/design/2026-10-15",
+      "kind": "Daily digest"
     },
     {
       "src": "designbetter",
       "date": "2026-10-14",
       "title": "Kevin Flores: Find Your Inner Rebel",
       "url": "https://designbetterpodcast.com/p/kevin-flores",
+      "kind": "Episode"
+    },
+    {
+      "src": "aianddesign",
+      "date": "2026-10-13",
+      "title": "Live at IxDA Pittsburgh - How to be a designer in 2027",
+      "url": "038e11c4-1c07-4f5b-98c2-ab6508cd01e7",
       "kind": "Episode"
     },
     {
@@ -44,25 +86,39 @@
       "kind": "Weekly round-up"
     },
     {
-      "src": "nng",
+      "src": "figma",
+      "date": "2026-10-10",
+      "title": "4 team rituals that drive AI adoption",
+      "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/",
+      "kind": "Article"
+    },
+    {
+      "src": "designbetter",
       "date": "2026-10-09",
-      "title": "Context Libraries: How AI Power Users Manage Context Engineering",
-      "url": "https://www.nngroup.com/articles/context-libraries/",
+      "title": "How Milton Glaser set design quality standards",
+      "url": "https://designbetterpodcast.com/p/how-milton-glaser-set-design-quality",
+      "kind": "Episode"
+    },
+    {
+      "src": "figma",
+      "date": "2026-10-09",
+      "title": "Sightlines issue no.3: Raise the bar for how teams use AI",
+      "url": "https://www.figma.com/blog/sightlines-issue-no3/",
       "kind": "Article"
     },
     {
       "src": "nng",
       "date": "2026-10-09",
       "title": "The New Siri’s Biggest Strength Is Not Intelligence",
-      "url": "https://www.nngroup.com/articles/ai-assistant-context/",
+      "url": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
-      "src": "aianddesign",
-      "date": "2026-10-07",
-      "title": "Ep. 37: The Fastest Gun in the West, Multiplayer AI, Serious AI Products & Jeremy Belcher",
-      "url": "https://podcasts.apple.com/us/podcast/the-fastest-gun-in-the-west-multiplayer-ai-serious/id1868571210?i=1000793567281",
-      "kind": "Episode"
+      "src": "nng",
+      "date": "2026-10-09",
+      "title": "Context Libraries: How AI Power Users Manage Context Engineering",
+      "url": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "designbetter",
@@ -72,19 +128,126 @@
       "kind": "Episode"
     },
     {
+      "src": "aianddesign",
+      "date": "2026-10-07",
+      "title": "The Fastest Gun in the West, Multiplayer AI, Serious AI Products & Jeremy Belcher",
+      "url": "c43a6901-51f3-42b8-a795-8b56808dc1f0",
+      "kind": "Episode"
+    },
+    {
+      "src": "figma",
+      "date": "2026-10-06",
+      "title": "3 ways product designers use the Figma agent for craft, speed, and creative expression",
+      "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
+      "kind": "Article"
+    },
+    {
       "src": "nng",
       "date": "2026-10-02",
       "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
-      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/",
+      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
       "src": "aianddesign",
       "date": "2026-09-30",
-      "title": "Ep. 36: AI Sychophancy with Steve Rathje",
-      "url": "https://podcasts.apple.com/us/podcast/ai-sychophancy-with-steve-rathje/id1868571210?i=1000792362515",
+      "title": "AI Sychophancy with Steve Rathje",
+      "url": "5cdca311-7728-462e-8f46-eaa08090cbc2",
       "kind": "Episode"
+    },
+    {
+      "src": "expo",
+      "date": "2026-09-29",
+      "title": "Agentic CI for Expo apps with TesterArmy",
+      "url": "https://expo.dev/blog/agentic-ci-for-expo-apps-with-testerarmy",
+      "kind": "Post"
+    },
+    {
+      "src": "aianddesign",
+      "date": "2026-09-22",
+      "title": "Google CC, Controlling Image Generators, and Planning with Agents",
+      "url": "41ca1334-4818-4c03-b9cf-443e5361600f",
+      "kind": "Episode"
+    },
+    {
+      "src": "expo",
+      "date": "2026-09-03",
+      "title": "12 AEO practices to make your documentation AI-ready",
+      "url": "https://expo.dev/blog/aeo-practices-to-make-your-documentation-ai-ready",
+      "kind": "Post"
+    },
+    {
+      "src": "expo",
+      "date": "2026-07-13",
+      "title": "How to build mobile apps with AI: the three tools that actually matter",
+      "url": "https://expo.dev/blog/how-to-build-mobile-apps-with-ai-the-three-tools-that-actually-matter",
+      "kind": "Post"
     }
   ],
-  "status": {}
+  "status": {
+    "tjpitre": {
+      "state": "social"
+    },
+    "rajan": {
+      "state": "social"
+    },
+    "ansh": {
+      "state": "social"
+    },
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
+      "count": 4
+    },
+    "designbetter": {
+      "state": "ok",
+      "feed": "https://designbetterpodcast.com/feed",
+      "count": 4
+    },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
+      "count": 2
+    },
+    "designlab": {
+      "state": "none",
+      "error": "https://designlab.com/blog: no feed link found",
+      "count": 0
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
+    },
+    "aianddesign": {
+      "state": "ok",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "count": 4
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
+      "count": 0
+    }
+  }
 }
