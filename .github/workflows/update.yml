@@ -17,6 +17,10 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+defaults:
+  run:
+    working-directory: ai-x-product-design
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -27,6 +31,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: ai-x-product-design/package-lock.json
 
       - run: npm ci
 
@@ -48,7 +53,7 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: ai-x-product-design/site
 
   deploy:
     needs: refresh
