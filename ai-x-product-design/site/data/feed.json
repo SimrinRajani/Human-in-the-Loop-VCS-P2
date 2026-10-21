@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-21T04:00:12.638Z",
+  "updated": "2026-10-21T15:59:09.560Z",
   "items": [
+    {
+      "src": "designbetter",
+      "date": "2026-10-21",
+      "title": "Tom Foley: How to pair typefaces and why the best brand fonts go unnoticed",
+      "url": "https://designbetterpodcast.com/p/tom-foley",
+      "kind": "Episode"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-10-21",
+      "title": "Bluesky Builds 🦋, iPhone Duo Limits 📱, Figma MCP 🔌",
+      "url": "https://tldr.tech/design/2026-10-21",
+      "kind": "Daily digest"
+    },
     {
       "src": "tldr",
       "date": "2026-10-20",
@@ -58,13 +72,6 @@
       "kind": "Article"
     },
     {
-      "src": "tldr",
-      "date": "2026-10-15",
-      "title": "Getty Goes Private 📸, Manus Funding 💰, Apple Health Delay ❤️",
-      "url": "https://tldr.tech/design/2026-10-15",
-      "kind": "Daily digest"
-    },
-    {
       "src": "designbetter",
       "date": "2026-10-14",
       "title": "Kevin Flores: Find Your Inner Rebel",
@@ -93,13 +100,6 @@
       "kind": "Article"
     },
     {
-      "src": "figma",
-      "date": "2026-10-09",
-      "title": "Sightlines issue no.3: Raise the bar for how teams use AI",
-      "url": "https://www.figma.com/blog/sightlines-issue-no3/",
-      "kind": "Article"
-    },
-    {
       "src": "nng",
       "date": "2026-10-09",
       "title": "The New Siri’s Biggest Strength Is Not Intelligence",
@@ -121,11 +121,11 @@
       "kind": "Episode"
     },
     {
-      "src": "designbetter",
-      "date": "2026-10-07",
-      "title": "Randy Hunt: Notion and Etsy design leader on why the best design teams stay small",
-      "url": "https://designbetterpodcast.com/p/randy-hunt",
-      "kind": "Episode"
+      "src": "figma",
+      "date": "2026-10-09",
+      "title": "Sightlines issue no.3: Raise the bar for how teams use AI",
+      "url": "https://www.figma.com/blog/sightlines-issue-no3/",
+      "kind": "Article"
     },
     {
       "src": "aianddesign",
@@ -194,11 +194,6 @@
     "ansh": {
       "state": "social"
     },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
-      "count": 4
-    },
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
@@ -214,30 +209,30 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
+      "count": 2
     },
     "shape": {
       "state": "none",
       "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
-      "count": 2
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
     },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
-      "count": 0
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
     },
     "aianddesign": {
       "state": "ok",
@@ -247,6 +242,11 @@
     "uxforai": {
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
+      "count": 0
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     }
   }
