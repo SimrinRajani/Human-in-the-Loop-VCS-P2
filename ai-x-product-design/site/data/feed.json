@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T03:15:40.744Z",
+  "updated": "2026-10-21T04:00:12.638Z",
   "items": [
     {
       "src": "tldr",
@@ -37,18 +37,18 @@
       "kind": "Weekly round-up"
     },
     {
-      "src": "tldr",
-      "date": "2026-10-16",
-      "title": "Google Play Redesign 🚗, Free Office Apps 📝, Opera Air Refresh 🌐",
-      "url": "https://tldr.tech/design/2026-10-16",
-      "kind": "Daily digest"
-    },
-    {
       "src": "nng",
       "date": "2026-10-16",
       "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
       "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-10-16",
+      "title": "Google Play Redesign 🚗, Free Office Apps 📝, Opera Air Refresh 🌐",
+      "url": "https://tldr.tech/design/2026-10-16",
+      "kind": "Daily digest"
     },
     {
       "src": "figma",
@@ -93,13 +93,6 @@
       "kind": "Article"
     },
     {
-      "src": "designbetter",
-      "date": "2026-10-09",
-      "title": "How Milton Glaser set design quality standards",
-      "url": "https://designbetterpodcast.com/p/how-milton-glaser-set-design-quality",
-      "kind": "Episode"
-    },
-    {
       "src": "figma",
       "date": "2026-10-09",
       "title": "Sightlines issue no.3: Raise the bar for how teams use AI",
@@ -119,6 +112,13 @@
       "title": "Context Libraries: How AI Power Users Manage Context Engineering",
       "url": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
+    },
+    {
+      "src": "designbetter",
+      "date": "2026-10-09",
+      "title": "How Milton Glaser set design quality standards",
+      "url": "https://designbetterpodcast.com/p/how-milton-glaser-set-design-quality",
+      "kind": "Episode"
     },
     {
       "src": "designbetter",
@@ -194,9 +194,19 @@
     "ansh": {
       "state": "social"
     },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
+      "count": 4
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "designbetter": {
@@ -204,20 +214,15 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
-      "count": 4
-    },
     "tldr": {
       "state": "ok",
       "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
     },
     "aiforux": {
       "state": "kept",
@@ -229,20 +234,15 @@
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "shape": {
+    "designwithai": {
       "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
-    },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
-      "count": 0
     },
     "uxforai": {
       "state": "none",
