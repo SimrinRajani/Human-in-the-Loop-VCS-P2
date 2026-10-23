@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-22T15:54:39.563Z",
+  "updated": "2026-10-23T15:46:38.098Z",
   "items": [
     {
+      "src": "figma",
+      "date": "2026-10-23",
+      "title": "How to put your design system to work with the Figma agent",
+      "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
+      "kind": "Article"
+    },
+    {
       "src": "designbetter",
-      "date": "2026-10-22",
-      "title": "The state of design in 2026",
-      "url": "https://designbetterpodcast.com/p/the-state-of-design-in-2026",
+      "date": "2026-10-23",
+      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
+      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
       "kind": "Episode"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-10-23",
+      "title": "ChatGPT Slides 📊, Google Search Layout 🔎, Apple Designers of Tomorrow 🎨",
+      "url": "https://tldr.tech/design/2026-10-23",
+      "kind": "Daily digest"
     },
     {
       "src": "figma",
@@ -14,6 +28,13 @@
       "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
       "url": "https://www.figma.com/blog/lufthansa-figma-make/",
       "kind": "Article"
+    },
+    {
+      "src": "designbetter",
+      "date": "2026-10-22",
+      "title": "The state of design in 2026",
+      "url": "https://designbetterpodcast.com/p/the-state-of-design-in-2026",
+      "kind": "Episode"
     },
     {
       "src": "tldr",
@@ -58,13 +79,6 @@
       "kind": "Post"
     },
     {
-      "src": "tldr",
-      "date": "2026-10-19",
-      "title": "App Store Safeguards 🛡️, Figma Code Layers 🧩, iPhone Duo Delays 📱",
-      "url": "https://tldr.tech/design/2026-10-19",
-      "kind": "Daily digest"
-    },
-    {
       "src": "designbetter",
       "date": "2026-10-18",
       "title": "The Brief: The essential setup for building web apps with AI",
@@ -93,13 +107,6 @@
       "kind": "Article"
     },
     {
-      "src": "designbetter",
-      "date": "2026-10-14",
-      "title": "Kevin Flores: Find Your Inner Rebel",
-      "url": "https://designbetterpodcast.com/p/kevin-flores",
-      "kind": "Episode"
-    },
-    {
       "src": "aianddesign",
       "date": "2026-10-13",
       "title": "Live at IxDA Pittsburgh - How to be a designer in 2027",
@@ -118,13 +125,6 @@
       "date": "2026-10-10",
       "title": "4 team rituals that drive AI adoption",
       "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/",
-      "kind": "Article"
-    },
-    {
-      "src": "figma",
-      "date": "2026-10-09",
-      "title": "Sightlines issue no.3: Raise the bar for how teams use AI",
-      "url": "https://www.figma.com/blog/sightlines-issue-no3/",
       "kind": "Article"
     },
     {
@@ -194,9 +194,14 @@
     "ansh": {
       "state": "social"
     },
-    "expo": {
+    "figma": {
       "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "designbetter": {
@@ -204,19 +209,14 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "figma": {
+    "expo": {
       "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
     "tldr": {
       "state": "ok",
       "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "aiforux": {
