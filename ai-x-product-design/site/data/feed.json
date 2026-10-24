@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-23T15:46:38.098Z",
+  "updated": "2026-10-24T14:37:19.004Z",
   "items": [
+    {
+      "src": "nng",
+      "date": "2026-10-23",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
+    {
+      "src": "figma",
+      "date": "2026-10-23",
+      "title": "6 ways teams are experimenting with code layers",
+      "url": "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/",
+      "kind": "Article"
+    },
     {
       "src": "figma",
       "date": "2026-10-23",
@@ -121,13 +135,6 @@
       "kind": "Weekly round-up"
     },
     {
-      "src": "figma",
-      "date": "2026-10-10",
-      "title": "4 team rituals that drive AI adoption",
-      "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/",
-      "kind": "Article"
-    },
-    {
       "src": "nng",
       "date": "2026-10-09",
       "title": "The New Siri’s Biggest Strength Is Not Intelligence",
@@ -147,13 +154,6 @@
       "title": "The Fastest Gun in the West, Multiplayer AI, Serious AI Products & Jeremy Belcher",
       "url": "c43a6901-51f3-42b8-a795-8b56808dc1f0",
       "kind": "Episode"
-    },
-    {
-      "src": "nng",
-      "date": "2026-10-02",
-      "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
-      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
     },
     {
       "src": "aianddesign",
@@ -194,9 +194,9 @@
     "ansh": {
       "state": "social"
     },
-    "figma": {
+    "expo": {
       "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
     "nng": {
@@ -204,19 +204,14 @@
       "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
     "designbetter": {
       "state": "ok",
       "feed": "https://designbetterpodcast.com/feed",
-      "count": 4
-    },
-    "expo": {
-      "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
     "aiforux": {
@@ -224,20 +219,25 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 2
     },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
+    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
-      "count": 0
-    },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
     },
     "designwithai": {
       "state": "none",
