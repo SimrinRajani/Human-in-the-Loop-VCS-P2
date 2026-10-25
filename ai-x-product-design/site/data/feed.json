@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-24T14:37:19.004Z",
+  "updated": "2026-10-25T14:58:04.107Z",
   "items": [
+    {
+      "src": "designbetter",
+      "date": "2026-10-23",
+      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
+      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
+      "kind": "Episode"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-10-23",
+      "title": "ChatGPT Slides 📊, Google Search Layout 🔎, Apple Designers of Tomorrow 🎨",
+      "url": "https://tldr.tech/design/2026-10-23",
+      "kind": "Daily digest"
+    },
     {
       "src": "nng",
       "date": "2026-10-23",
@@ -24,27 +38,6 @@
     },
     {
       "src": "designbetter",
-      "date": "2026-10-23",
-      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
-      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
-      "kind": "Episode"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-10-23",
-      "title": "ChatGPT Slides 📊, Google Search Layout 🔎, Apple Designers of Tomorrow 🎨",
-      "url": "https://tldr.tech/design/2026-10-23",
-      "kind": "Daily digest"
-    },
-    {
-      "src": "figma",
-      "date": "2026-10-22",
-      "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
-      "url": "https://www.figma.com/blog/lufthansa-figma-make/",
-      "kind": "Article"
-    },
-    {
-      "src": "designbetter",
       "date": "2026-10-22",
       "title": "The state of design in 2026",
       "url": "https://designbetterpodcast.com/p/the-state-of-design-in-2026",
@@ -56,6 +49,13 @@
       "title": "Lightroom Eyes 👀, Gemini Review 📝, n8n Refresh 🎨",
       "url": "https://tldr.tech/design/2026-10-22",
       "kind": "Daily digest"
+    },
+    {
+      "src": "figma",
+      "date": "2026-10-22",
+      "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
+      "url": "https://www.figma.com/blog/lufthansa-figma-make/",
+      "kind": "Article"
     },
     {
       "src": "aianddesign",
@@ -194,6 +194,16 @@
     "ansh": {
       "state": "social"
     },
+    "designbetter": {
+      "state": "ok",
+      "feed": "https://designbetterpodcast.com/feed",
+      "count": 4
+    },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
+    },
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
@@ -209,30 +219,15 @@
       "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
-    "designbetter": {
-      "state": "ok",
-      "feed": "https://designbetterpodcast.com/feed",
-      "count": 4
-    },
     "aiforux": {
       "state": "kept",
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 2
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
-    },
-    "aianddesign": {
-      "state": "ok",
-      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
-      "count": 4
     },
     "shape": {
       "state": "none",
@@ -243,6 +238,11 @@
       "state": "none",
       "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
+    },
+    "aianddesign": {
+      "state": "ok",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "count": 4
     },
     "uxforai": {
       "state": "none",
