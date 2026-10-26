@@ -1,33 +1,19 @@
 {
-  "updated": "2026-10-25T14:58:04.107Z",
+  "updated": "2026-10-26T17:25:53.996Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-10-26",
+      "title": "Canva Craft 🎨, iPhone Cracks 📱, EA FC Rebrand ⚽",
+      "url": "https://tldr.tech/design/2026-10-26",
+      "kind": "Daily digest"
+    },
     {
       "src": "designbetter",
       "date": "2026-10-23",
       "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
       "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
       "kind": "Episode"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-10-23",
-      "title": "ChatGPT Slides 📊, Google Search Layout 🔎, Apple Designers of Tomorrow 🎨",
-      "url": "https://tldr.tech/design/2026-10-23",
-      "kind": "Daily digest"
-    },
-    {
-      "src": "nng",
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
-      "src": "figma",
-      "date": "2026-10-23",
-      "title": "6 ways teams are experimenting with code layers",
-      "url": "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/",
-      "kind": "Article"
     },
     {
       "src": "figma",
@@ -37,6 +23,20 @@
       "kind": "Article"
     },
     {
+      "src": "nng",
+      "date": "2026-10-23",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-10-23",
+      "title": "ChatGPT Slides 📊, Google Search Layout 🔎, Apple Designers of Tomorrow 🎨",
+      "url": "https://tldr.tech/design/2026-10-23",
+      "kind": "Daily digest"
+    },
+    {
       "src": "designbetter",
       "date": "2026-10-22",
       "title": "The state of design in 2026",
@@ -44,18 +44,18 @@
       "kind": "Episode"
     },
     {
-      "src": "tldr",
-      "date": "2026-10-22",
-      "title": "Lightroom Eyes 👀, Gemini Review 📝, n8n Refresh 🎨",
-      "url": "https://tldr.tech/design/2026-10-22",
-      "kind": "Daily digest"
-    },
-    {
       "src": "figma",
       "date": "2026-10-22",
       "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
       "url": "https://www.figma.com/blog/lufthansa-figma-make/",
       "kind": "Article"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-10-22",
+      "title": "Lightroom Eyes 👀, Gemini Review 📝, n8n Refresh 🎨",
+      "url": "https://tldr.tech/design/2026-10-22",
+      "kind": "Daily digest"
     },
     {
       "src": "aianddesign",
@@ -76,13 +76,6 @@
       "date": "2026-10-21",
       "title": "Bluesky Builds 🦋, iPhone Duo Limits 📱, Figma MCP 🔌",
       "url": "https://tldr.tech/design/2026-10-21",
-      "kind": "Daily digest"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-10-20",
-      "title": "Windows Photos 🖼️, Replit Switch 🔄, WhatsApp Stickers 🔊",
-      "url": "https://tldr.tech/design/2026-10-20",
       "kind": "Daily digest"
     },
     {
@@ -133,6 +126,13 @@
       "title": "October 5 – 11 Round Up: Synthetic Users in Research, Faster User Decisions, Interfaces That Anticipate",
       "url": "https://aiforux.substack.com/p/october-5-october-11-round-up-synthetic",
       "kind": "Weekly round-up"
+    },
+    {
+      "src": "figma",
+      "date": "2026-10-10",
+      "title": "4 team rituals that drive AI adoption",
+      "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/",
+      "kind": "Article"
     },
     {
       "src": "nng",
@@ -199,9 +199,9 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "tldr": {
+    "figma": {
       "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
     "expo": {
@@ -209,35 +209,30 @@
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
-      "count": 4
-    },
     "aiforux": {
       "state": "kept",
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 2
-    },
-    "designlab": {
-      "state": "none",
-      "error": "https://designlab.com/blog: no feed link found",
-      "count": 0
     },
     "shape": {
       "state": "none",
       "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
-    "designwithai": {
+    "designlab": {
       "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "error": "https://designlab.com/blog: no feed link found",
       "count": 0
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
     },
     "aianddesign": {
       "state": "ok",
@@ -247,6 +242,11 @@
     "uxforai": {
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
+      "count": 0
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     }
   }
