@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-27T16:43:24.271Z",
+  "updated": "2026-10-28T17:11:45.698Z",
   "items": [
     {
+      "src": "designbetter",
+      "date": "2026-10-28",
+      "title": "Maurice Cherry: Revision Path creator on why attention isn’t impact",
+      "url": "https://designbetterpodcast.com/p/maurice-cherry-revision-path-creator",
+      "kind": "Episode"
+    },
+    {
       "src": "tldr",
-      "date": "2026-10-27",
-      "title": "Figma AI Credits 🎛️, OLED iPad Mini 🎨, iPhone Duo Apps 📲",
-      "url": "https://tldr.tech/design/2026-10-27",
+      "date": "2026-10-28",
+      "title": "Figma Weave MCP 🎬, Franki Rebrand 🍽️, Edge Dark Patterns 🌐",
+      "url": "https://tldr.tech/design/2026-10-28",
       "kind": "Daily digest"
+    },
+    {
+      "src": "aianddesign",
+      "date": "2026-10-28",
+      "title": "Structured AI Context, How PMs are Being Affected by AI, A Conversation with Junior Designers",
+      "url": "4225c484-2816-4c7c-8d3c-fc2056794973",
+      "kind": "Episode"
     },
     {
       "src": "expo",
@@ -17,10 +31,31 @@
     },
     {
       "src": "tldr",
+      "date": "2026-10-27",
+      "title": "Figma AI Credits 🎛️, OLED iPad Mini 🎨, iPhone Duo Apps 📲",
+      "url": "https://tldr.tech/design/2026-10-27",
+      "kind": "Daily digest"
+    },
+    {
+      "src": "tldr",
       "date": "2026-10-26",
       "title": "Canva Craft 🎨, iPhone Cracks 📱, EA FC Rebrand ⚽",
       "url": "https://tldr.tech/design/2026-10-26",
       "kind": "Daily digest"
+    },
+    {
+      "src": "figma",
+      "date": "2026-10-23",
+      "title": "6 ways teams are experimenting with code layers",
+      "url": "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/",
+      "kind": "Article"
+    },
+    {
+      "src": "figma",
+      "date": "2026-10-23",
+      "title": "How to put your design system to work with the Figma agent",
+      "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
+      "kind": "Article"
     },
     {
       "src": "designbetter",
@@ -30,10 +65,10 @@
       "kind": "Episode"
     },
     {
-      "src": "figma",
+      "src": "nng",
       "date": "2026-10-23",
-      "title": "How to put your design system to work with the Figma agent",
-      "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
@@ -44,10 +79,10 @@
       "kind": "Daily digest"
     },
     {
-      "src": "nng",
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "src": "figma",
+      "date": "2026-10-22",
+      "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
+      "url": "https://www.figma.com/blog/lufthansa-figma-make/",
       "kind": "Article"
     },
     {
@@ -56,20 +91,6 @@
       "title": "The state of design in 2026",
       "url": "https://designbetterpodcast.com/p/the-state-of-design-in-2026",
       "kind": "Episode"
-    },
-    {
-      "src": "figma",
-      "date": "2026-10-22",
-      "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
-      "url": "https://www.figma.com/blog/lufthansa-figma-make/",
-      "kind": "Article"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-10-22",
-      "title": "Lightroom Eyes 👀, Gemini Review 📝, n8n Refresh 🎨",
-      "url": "https://tldr.tech/design/2026-10-22",
-      "kind": "Daily digest"
     },
     {
       "src": "aianddesign",
@@ -91,13 +112,6 @@
       "title": "Introducing expo-app-intents: Siri, Shortcuts, Spotlight, and Apple Intelligence for Expo apps",
       "url": "https://expo.dev/blog/introducing-expo-app-intents",
       "kind": "Post"
-    },
-    {
-      "src": "designbetter",
-      "date": "2026-10-18",
-      "title": "The Brief: The essential setup for building web apps with AI",
-      "url": "https://designbetterpodcast.com/p/the-brief-the-essential-setup-for",
-      "kind": "Episode"
     },
     {
       "src": "aiforux",
@@ -135,13 +149,6 @@
       "kind": "Weekly round-up"
     },
     {
-      "src": "figma",
-      "date": "2026-10-10",
-      "title": "4 team rituals that drive AI adoption",
-      "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/",
-      "kind": "Article"
-    },
-    {
       "src": "nng",
       "date": "2026-10-09",
       "title": "The New Siri’s Biggest Strength Is Not Intelligence",
@@ -160,13 +167,6 @@
       "date": "2026-10-07",
       "title": "The Fastest Gun in the West, Multiplayer AI, Serious AI Products & Jeremy Belcher",
       "url": "c43a6901-51f3-42b8-a795-8b56808dc1f0",
-      "kind": "Episode"
-    },
-    {
-      "src": "aianddesign",
-      "date": "2026-09-30",
-      "title": "AI Sychophancy with Steve Rathje",
-      "url": "5cdca311-7728-462e-8f46-eaa08090cbc2",
       "kind": "Episode"
     },
     {
@@ -194,9 +194,9 @@
     "ansh": {
       "state": "social"
     },
-    "designbetter": {
+    "expo": {
       "state": "ok",
-      "feed": "https://designbetterpodcast.com/feed",
+      "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
     "figma": {
@@ -204,9 +204,9 @@
       "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
-    "tldr": {
+    "designbetter": {
       "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
+      "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
     "aiforux": {
@@ -219,14 +219,19 @@
       "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
-    "expo": {
+    "tldr": {
       "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
+      "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
+      "count": 0
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
     "shape": {
@@ -242,11 +247,6 @@
     "uxforai": {
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
-      "count": 0
-    },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     }
   }
