@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-28T17:11:45.698Z",
+  "updated": "2026-10-29T17:27:19.043Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-10-29",
+      "title": "Genie 4 Worlds 🌍, Touchscreen MacBook 💻, Google Photos Redesign 📸",
+      "url": "https://tldr.tech/design/2026-10-29",
+      "kind": "Daily digest"
+    },
     {
       "src": "designbetter",
       "date": "2026-10-28",
@@ -70,13 +77,6 @@
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-10-23",
-      "title": "ChatGPT Slides 📊, Google Search Layout 🔎, Apple Designers of Tomorrow 🎨",
-      "url": "https://tldr.tech/design/2026-10-23",
-      "kind": "Daily digest"
     },
     {
       "src": "figma",
@@ -194,14 +194,14 @@
     "ansh": {
       "state": "social"
     },
-    "expo": {
-      "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
     "designbetter": {
@@ -209,24 +209,34 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
-      "count": 2
-    },
     "nng": {
       "state": "ok",
       "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
+    },
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
+      "count": 2
     },
     "tldr": {
       "state": "ok",
       "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
+    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
+      "count": 0
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
       "count": 0
     },
     "designwithai": {
@@ -234,20 +244,10 @@
       "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
-    },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
-    },
-    "uxforai": {
-      "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
-      "count": 0
     }
   }
 }
