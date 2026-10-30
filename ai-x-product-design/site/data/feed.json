@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-29T17:27:19.043Z",
+  "updated": "2026-10-30T17:02:44.437Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-10-30",
+      "title": "Fitbit Edge ⌚, Text Your Dot 💬, Windows Security Design 🛡️",
+      "url": "https://tldr.tech/design/2026-10-30",
+      "kind": "Daily digest"
+    },
     {
       "src": "tldr",
       "date": "2026-10-29",
@@ -44,11 +51,11 @@
       "kind": "Daily digest"
     },
     {
-      "src": "tldr",
-      "date": "2026-10-26",
-      "title": "Canva Craft 🎨, iPhone Cracks 📱, EA FC Rebrand ⚽",
-      "url": "https://tldr.tech/design/2026-10-26",
-      "kind": "Daily digest"
+      "src": "designbetter",
+      "date": "2026-10-23",
+      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
+      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
+      "kind": "Episode"
     },
     {
       "src": "figma",
@@ -65,24 +72,10 @@
       "kind": "Article"
     },
     {
-      "src": "designbetter",
-      "date": "2026-10-23",
-      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
-      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
-      "kind": "Episode"
-    },
-    {
       "src": "nng",
       "date": "2026-10-23",
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
-      "src": "figma",
-      "date": "2026-10-22",
-      "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
-      "url": "https://www.figma.com/blog/lufthansa-figma-make/",
       "kind": "Article"
     },
     {
@@ -91,6 +84,13 @@
       "title": "The state of design in 2026",
       "url": "https://designbetterpodcast.com/p/the-state-of-design-in-2026",
       "kind": "Episode"
+    },
+    {
+      "src": "figma",
+      "date": "2026-10-22",
+      "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
+      "url": "https://www.figma.com/blog/lufthansa-figma-make/",
+      "kind": "Article"
     },
     {
       "src": "aianddesign",
@@ -194,9 +194,9 @@
     "ansh": {
       "state": "social"
     },
-    "figma": {
+    "designbetter": {
       "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
     "expo": {
@@ -204,9 +204,19 @@
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
-    "designbetter": {
+    "figma": {
       "state": "ok",
-      "feed": "https://designbetterpodcast.com/feed",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
+    },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
     "nng": {
@@ -219,26 +229,6 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 2
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
-    },
-    "designlab": {
-      "state": "none",
-      "error": "https://designlab.com/blog: no feed link found",
-      "count": 0
-    },
-    "uxforai": {
-      "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
-      "count": 0
-    },
     "designwithai": {
       "state": "none",
       "error": "https://designwithai.beehiiv.com/: no feed link found",
@@ -248,6 +238,16 @@
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
+      "count": 0
+    },
+    "designlab": {
+      "state": "none",
+      "error": "https://designlab.com/blog: no feed link found",
+      "count": 0
     }
   }
 }
