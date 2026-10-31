@@ -1,12 +1,33 @@
 {
-  "updated": "2026-10-30T17:02:44.437Z",
+  "updated": "2026-10-31T16:09:12.427Z",
   "items": [
+    {
+      "src": "expo",
+      "date": "2026-10-31",
+      "title": "A WebGPU cat puzzle game shipped in three days on Expo, with an AI agent as the QA team",
+      "url": "https://expo.dev/blog/purrkour-webgpu-typegpu-game-expo-three-days",
+      "kind": "Post"
+    },
+    {
+      "src": "designbetter",
+      "date": "2026-10-30",
+      "title": "The Roundup: What three years of AI workshops taught us",
+      "url": "https://designbetterpodcast.com/p/the-roundup-what-three-years-of-ai",
+      "kind": "Episode"
+    },
     {
       "src": "tldr",
       "date": "2026-10-30",
       "title": "Fitbit Edge ⌚, Text Your Dot 💬, Windows Security Design 🛡️",
       "url": "https://tldr.tech/design/2026-10-30",
       "kind": "Daily digest"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-30",
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "tldr",
@@ -58,6 +79,13 @@
       "kind": "Episode"
     },
     {
+      "src": "nng",
+      "date": "2026-10-23",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
+    {
       "src": "figma",
       "date": "2026-10-23",
       "title": "6 ways teams are experimenting with code layers",
@@ -69,13 +97,6 @@
       "date": "2026-10-23",
       "title": "How to put your design system to work with the Figma agent",
       "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
-      "kind": "Article"
-    },
-    {
-      "src": "nng",
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
@@ -97,13 +118,6 @@
       "date": "2026-10-22",
       "title": "OpenAI's Intelligent UI, Facebook's Your Algorithm, AI Relationship Quality (ARQ)",
       "url": "ffbab192-4c8e-4ab3-a8ea-ea3d2ba85913",
-      "kind": "Episode"
-    },
-    {
-      "src": "designbetter",
-      "date": "2026-10-21",
-      "title": "Tom Foley: How to pair typefaces and why the best brand fonts go unnoticed",
-      "url": "https://designbetterpodcast.com/p/tom-foley",
       "kind": "Episode"
     },
     {
@@ -156,13 +170,6 @@
       "kind": "Article"
     },
     {
-      "src": "nng",
-      "date": "2026-10-09",
-      "title": "Context Libraries: How AI Power Users Manage Context Engineering",
-      "url": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "aianddesign",
       "date": "2026-10-07",
       "title": "The Fastest Gun in the West, Multiplayer AI, Serious AI Products & Jeremy Belcher",
@@ -174,13 +181,6 @@
       "date": "2026-09-29",
       "title": "Agentic CI for Expo apps with TesterArmy",
       "url": "https://expo.dev/blog/agentic-ci-for-expo-apps-with-testerarmy",
-      "kind": "Post"
-    },
-    {
-      "src": "expo",
-      "date": "2026-09-03",
-      "title": "12 AEO practices to make your documentation AI-ready",
-      "url": "https://expo.dev/blog/aeo-practices-to-make-your-documentation-ai-ready",
       "kind": "Post"
     }
   ],
@@ -194,34 +194,19 @@
     "ansh": {
       "state": "social"
     },
-    "designbetter": {
-      "state": "ok",
-      "feed": "https://designbetterpodcast.com/feed",
-      "count": 4
-    },
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
-    "figma": {
+    "designbetter": {
       "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "feed": "https://designbetterpodcast.com/feed",
       "count": 4
-    },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
     },
     "tldr": {
       "state": "ok",
       "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "aiforux": {
@@ -229,24 +214,39 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 2
     },
-    "designwithai": {
+    "designlab": {
       "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "error": "https://designlab.com/blog: no feed link found",
       "count": 0
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
+    },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
     },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
     },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
+    },
     "uxforai": {
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
-      "count": 0
-    },
-    "designlab": {
-      "state": "none",
-      "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     }
   }
