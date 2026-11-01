@@ -1,11 +1,25 @@
 {
-  "updated": "2026-10-31T16:09:12.427Z",
+  "updated": "2026-11-01T17:09:57.835Z",
   "items": [
     {
       "src": "expo",
       "date": "2026-10-31",
       "title": "A WebGPU cat puzzle game shipped in three days on Expo, with an AI agent as the QA team",
       "url": "https://expo.dev/blog/purrkour-webgpu-typegpu-game-expo-three-days",
+      "kind": "Post"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-30",
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
+    {
+      "src": "aiforux",
+      "date": "2026-10-30",
+      "title": "The People Using AI Should Set Its Strategy",
+      "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
       "kind": "Post"
     },
     {
@@ -21,13 +35,6 @@
       "title": "Fitbit Edge ⌚, Text Your Dot 💬, Windows Security Design 🛡️",
       "url": "https://tldr.tech/design/2026-10-30",
       "kind": "Daily digest"
-    },
-    {
-      "src": "nng",
-      "date": "2026-10-30",
-      "title": "The Role of UX in Agentic Software Factories",
-      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
     },
     {
       "src": "tldr",
@@ -65,6 +72,13 @@
       "kind": "Post"
     },
     {
+      "src": "aiforux",
+      "date": "2026-10-27",
+      "title": "Smaller Teams Want Design Leaders Who Make, Again. Here’s How.",
+      "url": "https://aiforux.substack.com/p/smaller-teams-want-design-leaders",
+      "kind": "Post"
+    },
+    {
       "src": "tldr",
       "date": "2026-10-27",
       "title": "Figma AI Credits 🎛️, OLED iPad Mini 🎨, iPhone Duo Apps 📲",
@@ -72,18 +86,18 @@
       "kind": "Daily digest"
     },
     {
-      "src": "designbetter",
-      "date": "2026-10-23",
-      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
-      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
-      "kind": "Episode"
+      "src": "aiforux",
+      "date": "2026-10-25",
+      "title": "October 19 — October 25 Round Up: Coded Prototype Wireframing, Buy vs. Build UX, Research Builder Role",
+      "url": "https://aiforux.substack.com/p/october-19-october-25-round-up-coded",
+      "kind": "Post"
     },
     {
-      "src": "nng",
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
+      "src": "aiforux",
+      "date": "2026-10-24",
+      "title": "Six AI Words That Keep Their Promises",
+      "url": "https://aiforux.substack.com/p/six-ai-words-that-keep-their-promises",
+      "kind": "Post"
     },
     {
       "src": "figma",
@@ -100,10 +114,17 @@
       "kind": "Article"
     },
     {
+      "src": "nng",
+      "date": "2026-10-23",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
+    {
       "src": "designbetter",
-      "date": "2026-10-22",
-      "title": "The state of design in 2026",
-      "url": "https://designbetterpodcast.com/p/the-state-of-design-in-2026",
+      "date": "2026-10-23",
+      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
+      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
       "kind": "Episode"
     },
     {
@@ -112,6 +133,13 @@
       "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
       "url": "https://www.figma.com/blog/lufthansa-figma-make/",
       "kind": "Article"
+    },
+    {
+      "src": "designbetter",
+      "date": "2026-10-22",
+      "title": "The state of design in 2026",
+      "url": "https://designbetterpodcast.com/p/the-state-of-design-in-2026",
+      "kind": "Episode"
     },
     {
       "src": "aianddesign",
@@ -126,13 +154,6 @@
       "title": "Introducing expo-app-intents: Siri, Shortcuts, Spotlight, and Apple Intelligence for Expo apps",
       "url": "https://expo.dev/blog/introducing-expo-app-intents",
       "kind": "Post"
-    },
-    {
-      "src": "aiforux",
-      "date": "2026-10-18",
-      "title": "October 12 – 18 Round Up: Interface-Last Design, Taste Versus Methodology, AI Beyond Org Charts",
-      "url": "https://aiforux.substack.com/p/october-12-october-18-round-up-interface",
-      "kind": "Weekly round-up"
     },
     {
       "src": "nng",
@@ -154,13 +175,6 @@
       "title": "Live at IxDA Pittsburgh - How to be a designer in 2027",
       "url": "038e11c4-1c07-4f5b-98c2-ab6508cd01e7",
       "kind": "Episode"
-    },
-    {
-      "src": "aiforux",
-      "date": "2026-10-11",
-      "title": "October 5 – 11 Round Up: Synthetic Users in Research, Faster User Decisions, Interfaces That Anticipate",
-      "url": "https://aiforux.substack.com/p/october-5-october-11-round-up-synthetic",
-      "kind": "Weekly round-up"
     },
     {
       "src": "nng",
@@ -194,9 +208,29 @@
     "ansh": {
       "state": "social"
     },
+    "shape": {
+      "state": "none",
+      "error": "feed had no recent matching posts",
+      "count": 0
+    },
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
+      "count": 4
+    },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
+    "aiforux": {
+      "state": "ok",
+      "feed": "https://aiforux.substack.com/feed",
       "count": 4
     },
     "designbetter": {
@@ -204,39 +238,14 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
-      "count": 2
-    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "nng": {
+    "tldr": {
       "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
-    },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
-      "count": 4
-    },
-    "aianddesign": {
-      "state": "ok",
-      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
     "designwithai": {
@@ -248,6 +257,11 @@
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
       "count": 0
+    },
+    "aianddesign": {
+      "state": "ok",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "count": 4
     }
   }
 }
