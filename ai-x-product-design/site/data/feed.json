@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-01T17:09:57.835Z",
+  "updated": "2026-11-02T20:49:15.798Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-02",
+      "title": "WhatsApp Groups 💬, Affinity for iPad 🎨, Meta Style Sketch 👗",
+      "url": "https://tldr.tech/design/2026-11-02",
+      "kind": "Daily digest"
+    },
     {
       "src": "expo",
       "date": "2026-10-31",
@@ -16,18 +23,18 @@
       "kind": "Article"
     },
     {
-      "src": "aiforux",
-      "date": "2026-10-30",
-      "title": "The People Using AI Should Set Its Strategy",
-      "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
-      "kind": "Post"
-    },
-    {
       "src": "designbetter",
       "date": "2026-10-30",
       "title": "The Roundup: What three years of AI workshops taught us",
       "url": "https://designbetterpodcast.com/p/the-roundup-what-three-years-of-ai",
       "kind": "Episode"
+    },
+    {
+      "src": "aiforux",
+      "date": "2026-10-30",
+      "title": "The People Using AI Should Set Its Strategy",
+      "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
+      "kind": "Post"
     },
     {
       "src": "tldr",
@@ -79,13 +86,6 @@
       "kind": "Post"
     },
     {
-      "src": "tldr",
-      "date": "2026-10-27",
-      "title": "Figma AI Credits 🎛️, OLED iPad Mini 🎨, iPhone Duo Apps 📲",
-      "url": "https://tldr.tech/design/2026-10-27",
-      "kind": "Daily digest"
-    },
-    {
       "src": "aiforux",
       "date": "2026-10-25",
       "title": "October 19 — October 25 Round Up: Coded Prototype Wireframing, Buy vs. Build UX, Research Builder Role",
@@ -100,6 +100,13 @@
       "kind": "Post"
     },
     {
+      "src": "nng",
+      "date": "2026-10-23",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
+    {
       "src": "figma",
       "date": "2026-10-23",
       "title": "6 ways teams are experimenting with code layers",
@@ -111,13 +118,6 @@
       "date": "2026-10-23",
       "title": "How to put your design system to work with the Figma agent",
       "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
-      "kind": "Article"
-    },
-    {
-      "src": "nng",
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
@@ -208,19 +208,9 @@
     "ansh": {
       "state": "social"
     },
-    "shape": {
-      "state": "none",
-      "error": "feed had no recent matching posts",
-      "count": 0
-    },
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
     "nng": {
@@ -228,9 +218,9 @@
       "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
-    "aiforux": {
+    "figma": {
       "state": "ok",
-      "feed": "https://aiforux.substack.com/feed",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
     "designbetter": {
@@ -238,19 +228,29 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "designlab": {
-      "state": "none",
-      "error": "https://designlab.com/blog: no feed link found",
-      "count": 0
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
+      "count": 4
     },
     "tldr": {
       "state": "ok",
       "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
-    "designwithai": {
+    "designlab": {
       "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "error": "https://designlab.com/blog: no feed link found",
+      "count": 0
+    },
+    "aianddesign": {
+      "state": "ok",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "count": 4
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
     "uxforai": {
@@ -258,10 +258,10 @@
       "error": "https://uxforai.com/: no feed link found",
       "count": 0
     },
-    "aianddesign": {
-      "state": "ok",
-      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
-      "count": 4
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
     }
   }
 }
