@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-02T20:49:15.798Z",
+  "updated": "2026-11-03T18:28:30.576Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-03",
+      "title": "Canva Brush 🖌️, Amstel Refresh 🍺, ChatGPT Tabs 💬",
+      "url": "https://tldr.tech/design/2026-11-03",
+      "kind": "Daily digest"
+    },
     {
       "src": "tldr",
       "date": "2026-11-02",
@@ -16,18 +23,18 @@
       "kind": "Post"
     },
     {
-      "src": "nng",
-      "date": "2026-10-30",
-      "title": "The Role of UX in Agentic Software Factories",
-      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "designbetter",
       "date": "2026-10-30",
       "title": "The Roundup: What three years of AI workshops taught us",
       "url": "https://designbetterpodcast.com/p/the-roundup-what-three-years-of-ai",
       "kind": "Episode"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-30",
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "aiforux",
@@ -56,13 +63,6 @@
       "title": "Maurice Cherry: Revision Path creator on why attention isn’t impact",
       "url": "https://designbetterpodcast.com/p/maurice-cherry-revision-path-creator",
       "kind": "Episode"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-10-28",
-      "title": "Figma Weave MCP 🎬, Franki Rebrand 🍽️, Edge Dark Patterns 🌐",
-      "url": "https://tldr.tech/design/2026-10-28",
-      "kind": "Daily digest"
     },
     {
       "src": "aianddesign",
@@ -100,13 +100,6 @@
       "kind": "Post"
     },
     {
-      "src": "nng",
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "figma",
       "date": "2026-10-23",
       "title": "6 ways teams are experimenting with code layers",
@@ -126,6 +119,13 @@
       "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
       "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
       "kind": "Episode"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-23",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "figma",
@@ -213,11 +213,6 @@
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
@@ -228,24 +223,9 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
-      "count": 4
-    },
-    "tldr": {
+    "nng": {
       "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
-    "designlab": {
-      "state": "none",
-      "error": "https://designlab.com/blog: no feed link found",
-      "count": 0
-    },
-    "aianddesign": {
-      "state": "ok",
-      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "shape": {
@@ -253,15 +233,35 @@
       "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
-    "uxforai": {
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
+      "count": 4
+    },
+    "designlab": {
       "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
+      "error": "https://designlab.com/blog: no feed link found",
       "count": 0
+    },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
     },
     "designwithai": {
       "state": "none",
       "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
+      "count": 0
+    },
+    "aianddesign": {
+      "state": "ok",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "count": 4
     }
   }
 }
