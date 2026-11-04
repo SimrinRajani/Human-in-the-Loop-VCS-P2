@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-03T18:28:30.576Z",
+  "updated": "2026-11-04T18:40:30.197Z",
   "items": [
+    {
+      "src": "designbetter",
+      "date": "2026-11-04",
+      "title": "Creative Leadership Retreat: Paul Dichter",
+      "url": "https://designbetterpodcast.com/p/creative-leadership-retreat-paul",
+      "kind": "Episode"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-11-04",
+      "title": "Figma Drive 📁, Nubank Rebrand 💜, iPhone 18 📱",
+      "url": "https://tldr.tech/design/2026-11-04",
+      "kind": "Daily digest"
+    },
+    {
+      "src": "aianddesign",
+      "date": "2026-11-04",
+      "title": "Illegible Design Systems, MIT Predicts Your Next Words, Experts Follow AI, and guest Nicole Donnelly",
+      "url": "a01baeb6-956a-4c02-8bf2-3db7e2c97ae8",
+      "kind": "Episode"
+    },
     {
       "src": "tldr",
       "date": "2026-11-03",
@@ -48,13 +69,6 @@
       "date": "2026-10-30",
       "title": "Fitbit Edge ⌚, Text Your Dot 💬, Windows Security Design 🛡️",
       "url": "https://tldr.tech/design/2026-10-30",
-      "kind": "Daily digest"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-10-29",
-      "title": "Genie 4 Worlds 🌍, Touchscreen MacBook 💻, Google Photos Redesign 📸",
-      "url": "https://tldr.tech/design/2026-10-29",
       "kind": "Daily digest"
     },
     {
@@ -135,13 +149,6 @@
       "kind": "Article"
     },
     {
-      "src": "designbetter",
-      "date": "2026-10-22",
-      "title": "The state of design in 2026",
-      "url": "https://designbetterpodcast.com/p/the-state-of-design-in-2026",
-      "kind": "Episode"
-    },
-    {
       "src": "aianddesign",
       "date": "2026-10-22",
       "title": "OpenAI's Intelligent UI, Facebook's Your Algorithm, AI Relationship Quality (ARQ)",
@@ -184,13 +191,6 @@
       "kind": "Article"
     },
     {
-      "src": "aianddesign",
-      "date": "2026-10-07",
-      "title": "The Fastest Gun in the West, Multiplayer AI, Serious AI Products & Jeremy Belcher",
-      "url": "c43a6901-51f3-42b8-a795-8b56808dc1f0",
-      "kind": "Episode"
-    },
-    {
       "src": "expo",
       "date": "2026-09-29",
       "title": "Agentic CI for Expo apps with TesterArmy",
@@ -208,11 +208,6 @@
     "ansh": {
       "state": "social"
     },
-    "expo": {
-      "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
@@ -223,9 +218,24 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
+      "count": 4
+    },
     "nng": {
       "state": "ok",
       "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
+      "count": 4
+    },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
     "shape": {
@@ -233,24 +243,9 @@
       "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
-      "count": 4
-    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
-      "count": 0
-    },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
     "uxforai": {
@@ -262,6 +257,11 @@
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
     }
   }
 }
