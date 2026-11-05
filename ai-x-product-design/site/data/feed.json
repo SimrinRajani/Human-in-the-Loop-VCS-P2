@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-04T18:40:30.197Z",
+  "updated": "2026-11-05T18:48:43.213Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-05",
+      "title": "Canva Layoffs 📉, Premiere Licensed Music 🎵, Safari Vertical Tabs 🌐",
+      "url": "https://tldr.tech/design/2026-11-05",
+      "kind": "Daily digest"
+    },
+    {
+      "src": "figma",
+      "date": "2026-11-04",
+      "title": "Workflow lab: Test ideas with code layers and the Figma agent",
+      "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
+      "kind": "Article"
+    },
     {
       "src": "designbetter",
       "date": "2026-11-04",
@@ -51,13 +65,6 @@
       "kind": "Episode"
     },
     {
-      "src": "nng",
-      "date": "2026-10-30",
-      "title": "The Role of UX in Agentic Software Factories",
-      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "aiforux",
       "date": "2026-10-30",
       "title": "The People Using AI Should Set Its Strategy",
@@ -65,11 +72,11 @@
       "kind": "Post"
     },
     {
-      "src": "tldr",
+      "src": "nng",
       "date": "2026-10-30",
-      "title": "Fitbit Edge ⌚, Text Your Dot 💬, Windows Security Design 🛡️",
-      "url": "https://tldr.tech/design/2026-10-30",
-      "kind": "Daily digest"
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "designbetter",
@@ -170,13 +177,6 @@
       "kind": "Article"
     },
     {
-      "src": "figma",
-      "date": "2026-10-15",
-      "title": "Design together with code layers on the canvas",
-      "url": "https://www.figma.com/blog/design-together-with-code-layers/",
-      "kind": "Article"
-    },
-    {
       "src": "aianddesign",
       "date": "2026-10-13",
       "title": "Live at IxDA Pittsburgh - How to be a designer in 2027",
@@ -208,6 +208,11 @@
     "ansh": {
       "state": "social"
     },
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
+      "count": 4
+    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
@@ -218,24 +223,9 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "expo": {
-      "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
     "aiforux": {
       "state": "kept",
       "error": "https://aiforux.substack.com/: HTTP 403",
-      "count": 4
-    },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
     "shape": {
@@ -248,15 +238,25 @@
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "uxforai": {
-      "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
-      "count": 0
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
     },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
+      "count": 0
     },
     "designwithai": {
       "state": "none",
