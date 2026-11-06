@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-05T18:48:43.213Z",
+  "updated": "2026-11-06T18:04:09.372Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-06",
+      "title": "ChatGPT GIFs 🎞️, YouTube’s Floating Nav ▶️, Pangram AI Detector 🔍",
+      "url": "https://tldr.tech/design/2026-11-06",
+      "kind": "Daily digest"
+    },
     {
       "src": "tldr",
       "date": "2026-11-05",
@@ -9,18 +16,18 @@
       "kind": "Daily digest"
     },
     {
-      "src": "figma",
-      "date": "2026-11-04",
-      "title": "Workflow lab: Test ideas with code layers and the Figma agent",
-      "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
-      "kind": "Article"
-    },
-    {
       "src": "designbetter",
       "date": "2026-11-04",
       "title": "Creative Leadership Retreat: Paul Dichter",
       "url": "https://designbetterpodcast.com/p/creative-leadership-retreat-paul",
       "kind": "Episode"
+    },
+    {
+      "src": "figma",
+      "date": "2026-11-04",
+      "title": "Workflow lab: Test ideas with code layers and the Figma agent",
+      "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
+      "kind": "Article"
     },
     {
       "src": "tldr",
@@ -41,13 +48,6 @@
       "date": "2026-11-03",
       "title": "Canva Brush 🖌️, Amstel Refresh 🍺, ChatGPT Tabs 💬",
       "url": "https://tldr.tech/design/2026-11-03",
-      "kind": "Daily digest"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-11-02",
-      "title": "WhatsApp Groups 💬, Affinity for iPad 🎨, Meta Style Sketch 👗",
-      "url": "https://tldr.tech/design/2026-11-02",
       "kind": "Daily digest"
     },
     {
@@ -121,6 +121,13 @@
       "kind": "Post"
     },
     {
+      "src": "designbetter",
+      "date": "2026-10-23",
+      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
+      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
+      "kind": "Episode"
+    },
+    {
       "src": "figma",
       "date": "2026-10-23",
       "title": "6 ways teams are experimenting with code layers",
@@ -133,13 +140,6 @@
       "title": "How to put your design system to work with the Figma agent",
       "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
       "kind": "Article"
-    },
-    {
-      "src": "designbetter",
-      "date": "2026-10-23",
-      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
-      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
-      "kind": "Episode"
     },
     {
       "src": "nng",
@@ -213,14 +213,14 @@
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
-      "count": 4
-    },
     "designbetter": {
       "state": "ok",
       "feed": "https://designbetterpodcast.com/feed",
+      "count": 4
+    },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
     "aiforux": {
@@ -228,25 +228,25 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
     },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
     "nng": {
       "state": "ok",
       "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
     },
     "aianddesign": {
       "state": "ok",
