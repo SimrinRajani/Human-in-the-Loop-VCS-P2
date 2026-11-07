@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-06T18:04:09.372Z",
+  "updated": "2026-11-07T16:52:51.323Z",
   "items": [
+    {
+      "src": "figma",
+      "date": "2026-11-06",
+      "title": "In conversation: Dylan Field and David Friedberg on the human role in creating with AI",
+      "url": "https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg/",
+      "kind": "Article"
+    },
+    {
+      "src": "nng",
+      "date": "2026-11-06",
+      "title": "Agent Harness: Definition",
+      "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
     {
       "src": "tldr",
       "date": "2026-11-06",
@@ -16,18 +30,18 @@
       "kind": "Daily digest"
     },
     {
-      "src": "designbetter",
-      "date": "2026-11-04",
-      "title": "Creative Leadership Retreat: Paul Dichter",
-      "url": "https://designbetterpodcast.com/p/creative-leadership-retreat-paul",
-      "kind": "Episode"
-    },
-    {
       "src": "figma",
       "date": "2026-11-04",
       "title": "Workflow lab: Test ideas with code layers and the Figma agent",
       "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
       "kind": "Article"
+    },
+    {
+      "src": "designbetter",
+      "date": "2026-11-04",
+      "title": "Creative Leadership Retreat: Paul Dichter",
+      "url": "https://designbetterpodcast.com/p/creative-leadership-retreat-paul",
+      "kind": "Episode"
     },
     {
       "src": "tldr",
@@ -121,13 +135,6 @@
       "kind": "Post"
     },
     {
-      "src": "designbetter",
-      "date": "2026-10-23",
-      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
-      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
-      "kind": "Episode"
-    },
-    {
       "src": "figma",
       "date": "2026-10-23",
       "title": "6 ways teams are experimenting with code layers",
@@ -142,17 +149,17 @@
       "kind": "Article"
     },
     {
+      "src": "designbetter",
+      "date": "2026-10-23",
+      "title": "The Roundup: Lessons on typography from Tom Foley, Ellen Lupton, and Jonathon Hoefler",
+      "url": "https://designbetterpodcast.com/p/the-roundup-lessons-on-typography",
+      "kind": "Episode"
+    },
+    {
       "src": "nng",
       "date": "2026-10-23",
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
-      "src": "figma",
-      "date": "2026-10-22",
-      "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
-      "url": "https://www.figma.com/blog/lufthansa-figma-make/",
       "kind": "Article"
     },
     {
@@ -184,13 +191,6 @@
       "kind": "Episode"
     },
     {
-      "src": "nng",
-      "date": "2026-10-09",
-      "title": "The New Siri’s Biggest Strength Is Not Intelligence",
-      "url": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "expo",
       "date": "2026-09-29",
       "title": "Agentic CI for Expo apps with TesterArmy",
@@ -213,14 +213,14 @@
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
-    "designbetter": {
-      "state": "ok",
-      "feed": "https://designbetterpodcast.com/feed",
-      "count": 4
-    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
+    "designbetter": {
+      "state": "ok",
+      "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
     "aiforux": {
@@ -228,24 +228,29 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
     "tldr": {
       "state": "ok",
       "feed": "https://tldr.tech/api/rss/design",
       "count": 4
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
     },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
-    "shape": {
+    "designwithai": {
       "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
     "aianddesign": {
@@ -256,11 +261,6 @@
     "uxforai": {
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
-      "count": 0
-    },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     }
   }
