@@ -1,26 +1,19 @@
 {
-  "updated": "2026-11-08T17:06:28.878Z",
+  "updated": "2026-11-09T21:28:15.399Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-09",
+      "title": "Mac Live Activities 🖥️, Edits on Mac 🎬, YouTube Playables ♿",
+      "url": "https://tldr.tech/design/2026-11-09",
+      "kind": "Daily digest"
+    },
     {
       "src": "designbetter",
       "date": "2026-11-08",
       "title": "The Brief: Guide to communicating the value of design",
       "url": "https://designbetterpodcast.com/p/the-brief-guide-to-communicating",
       "kind": "Episode"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-11-06",
-      "title": "ChatGPT GIFs 🎞️, YouTube’s Floating Nav ▶️, Pangram AI Detector 🔍",
-      "url": "https://tldr.tech/design/2026-11-06",
-      "kind": "Daily digest"
-    },
-    {
-      "src": "nng",
-      "date": "2026-11-06",
-      "title": "Agent Harness: Definition",
-      "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
     },
     {
       "src": "figma",
@@ -30,11 +23,32 @@
       "kind": "Article"
     },
     {
+      "src": "nng",
+      "date": "2026-11-06",
+      "title": "Agent Harness: Definition",
+      "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-11-06",
+      "title": "ChatGPT GIFs 🎞️, YouTube’s Floating Nav ▶️, Pangram AI Detector 🔍",
+      "url": "https://tldr.tech/design/2026-11-06",
+      "kind": "Daily digest"
+    },
+    {
       "src": "tldr",
       "date": "2026-11-05",
       "title": "Canva Layoffs 📉, Premiere Licensed Music 🎵, Safari Vertical Tabs 🌐",
       "url": "https://tldr.tech/design/2026-11-05",
       "kind": "Daily digest"
+    },
+    {
+      "src": "figma",
+      "date": "2026-11-04",
+      "title": "Workflow lab: Test ideas with code layers and the Figma agent",
+      "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
+      "kind": "Article"
     },
     {
       "src": "designbetter",
@@ -56,20 +70,6 @@
       "title": "Illegible Design Systems, MIT Predicts Your Next Words, Experts Follow AI, and guest Nicole Donnelly",
       "url": "a01baeb6-956a-4c02-8bf2-3db7e2c97ae8",
       "kind": "Episode"
-    },
-    {
-      "src": "figma",
-      "date": "2026-11-04",
-      "title": "Workflow lab: Test ideas with code layers and the Figma agent",
-      "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
-      "kind": "Article"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-11-03",
-      "title": "Canva Brush 🖌️, Amstel Refresh 🍺, ChatGPT Tabs 💬",
-      "url": "https://tldr.tech/design/2026-11-03",
-      "kind": "Daily digest"
     },
     {
       "src": "expo",
@@ -142,13 +142,6 @@
       "kind": "Post"
     },
     {
-      "src": "nng",
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "figma",
       "date": "2026-10-23",
       "title": "6 ways teams are experimenting with code layers",
@@ -160,6 +153,13 @@
       "date": "2026-10-23",
       "title": "How to put your design system to work with the Figma agent",
       "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
+      "kind": "Article"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-23",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
@@ -213,9 +213,19 @@
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
     "designbetter": {
       "state": "ok",
       "feed": "https://designbetterpodcast.com/feed",
+      "count": 4
+    },
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
     "shape": {
@@ -223,9 +233,14 @@
       "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
+    "designlab": {
+      "state": "none",
+      "error": "https://designlab.com/blog: no feed link found",
+      "count": 0
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "tldr": {
@@ -233,35 +248,20 @@
       "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
-    "designlab": {
+    "uxforai": {
       "state": "none",
-      "error": "https://designlab.com/blog: no feed link found",
+      "error": "https://uxforai.com/: no feed link found",
       "count": 0
-    },
-    "aianddesign": {
-      "state": "ok",
-      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
-      "count": 4
-    },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
-      "count": 4
     },
     "designwithai": {
       "state": "none",
       "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
-    "uxforai": {
-      "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
-      "count": 0
+    "aianddesign": {
+      "state": "ok",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "count": 4
     }
   }
 }
