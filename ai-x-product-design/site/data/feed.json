@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-10T18:41:55.670Z",
+  "updated": "2026-11-11T18:43:43.553Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-11",
+      "title": "IG AI Filters 📸, Disney Adobe AII 🏰, Google Messages Redesign 💬",
+      "url": "https://tldr.tech/design/2026-11-11",
+      "kind": "Daily digest"
+    },
+    {
+      "src": "aianddesign",
+      "date": "2026-11-11",
+      "title": "New Product Launches, Fall 2026 Edition",
+      "url": "34786a04-b8e2-40b1-98f5-9e991c2c99e6",
+      "kind": "Episode"
+    },
     {
       "src": "expo",
       "date": "2026-11-10",
@@ -37,13 +51,6 @@
       "kind": "Episode"
     },
     {
-      "src": "nng",
-      "date": "2026-11-06",
-      "title": "Agent Harness: Definition",
-      "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "figma",
       "date": "2026-11-06",
       "title": "In conversation: Dylan Field and David Friedberg on the human role in creating with AI",
@@ -58,18 +65,11 @@
       "kind": "Daily digest"
     },
     {
-      "src": "tldr",
-      "date": "2026-11-05",
-      "title": "Canva Layoffs 📉, Premiere Licensed Music 🎵, Safari Vertical Tabs 🌐",
-      "url": "https://tldr.tech/design/2026-11-05",
-      "kind": "Daily digest"
-    },
-    {
-      "src": "designbetter",
-      "date": "2026-11-04",
-      "title": "Creative Leadership Retreat: Paul Dichter",
-      "url": "https://designbetterpodcast.com/p/creative-leadership-retreat-paul",
-      "kind": "Episode"
+      "src": "nng",
+      "date": "2026-11-06",
+      "title": "Agent Harness: Definition",
+      "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "figma",
@@ -77,6 +77,13 @@
       "title": "Workflow lab: Test ideas with code layers and the Figma agent",
       "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
       "kind": "Article"
+    },
+    {
+      "src": "designbetter",
+      "date": "2026-11-04",
+      "title": "Creative Leadership Retreat: Paul Dichter",
+      "url": "https://designbetterpodcast.com/p/creative-leadership-retreat-paul",
+      "kind": "Episode"
     },
     {
       "src": "aianddesign",
@@ -93,13 +100,6 @@
       "kind": "Post"
     },
     {
-      "src": "nng",
-      "date": "2026-10-30",
-      "title": "The Role of UX in Agentic Software Factories",
-      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "designbetter",
       "date": "2026-10-30",
       "title": "The Roundup: What three years of AI workshops taught us",
@@ -112,6 +112,13 @@
       "title": "The People Using AI Should Set Its Strategy",
       "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
       "kind": "Post"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-30",
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "designbetter",
@@ -156,17 +163,17 @@
       "kind": "Post"
     },
     {
-      "src": "nng",
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "figma",
       "date": "2026-10-23",
       "title": "6 ways teams are experimenting with code layers",
       "url": "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/",
+      "kind": "Article"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-23",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
@@ -189,13 +196,6 @@
       "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
       "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
-    },
-    {
-      "src": "aianddesign",
-      "date": "2026-10-13",
-      "title": "Live at IxDA Pittsburgh - How to be a designer in 2027",
-      "url": "038e11c4-1c07-4f5b-98c2-ab6508cd01e7",
-      "kind": "Episode"
     }
   ],
   "status": {
@@ -213,19 +213,14 @@
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
-    "nng": {
+    "figma": {
       "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
     "designbetter": {
       "state": "ok",
       "feed": "https://designbetterpodcast.com/feed",
-      "count": 4
-    },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
     "tldr": {
@@ -238,30 +233,35 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
-    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "aianddesign": {
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
+    },
+    "nng": {
       "state": "ok",
-      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
+      "count": 0
     },
     "designwithai": {
       "state": "none",
       "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
-    "uxforai": {
-      "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
-      "count": 0
+    "aianddesign": {
+      "state": "ok",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "count": 4
     }
   }
 }
