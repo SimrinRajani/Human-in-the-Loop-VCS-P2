@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-11T18:43:43.553Z",
+  "updated": "2026-11-12T18:58:27.220Z",
   "items": [
+    {
+      "src": "figma",
+      "date": "2026-11-12",
+      "title": "How 3D transforms and Figma’s agent brought a launch video to life",
+      "url": "https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/",
+      "kind": "Article"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-11-12",
+      "title": "Xbox Redesign 🎮, Apple TV Sign Language 🧏, Adobe × Google 🎨",
+      "url": "https://tldr.tech/design/2026-11-12",
+      "kind": "Daily digest"
+    },
+    {
+      "src": "designbetter",
+      "date": "2026-11-11",
+      "title": "Creative Leadership Retreat: Lucy McRae",
+      "url": "https://designbetterpodcast.com/p/creative-leadership-retreat-lucy",
+      "kind": "Episode"
+    },
     {
       "src": "tldr",
       "date": "2026-11-11",
@@ -56,13 +77,6 @@
       "title": "In conversation: Dylan Field and David Friedberg on the human role in creating with AI",
       "url": "https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg/",
       "kind": "Article"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-11-06",
-      "title": "ChatGPT GIFs 🎞️, YouTube’s Floating Nav ▶️, Pangram AI Detector 🔍",
-      "url": "https://tldr.tech/design/2026-11-06",
-      "kind": "Daily digest"
     },
     {
       "src": "nng",
@@ -121,13 +135,6 @@
       "kind": "Article"
     },
     {
-      "src": "designbetter",
-      "date": "2026-10-28",
-      "title": "Maurice Cherry: Revision Path creator on why attention isn’t impact",
-      "url": "https://designbetterpodcast.com/p/maurice-cherry-revision-path-creator",
-      "kind": "Episode"
-    },
-    {
       "src": "aianddesign",
       "date": "2026-10-28",
       "title": "Structured AI Context, How PMs are Being Affected by AI, A Conversation with Junior Designers",
@@ -161,13 +168,6 @@
       "title": "Six AI Words That Keep Their Promises",
       "url": "https://aiforux.substack.com/p/six-ai-words-that-keep-their-promises",
       "kind": "Post"
-    },
-    {
-      "src": "figma",
-      "date": "2026-10-23",
-      "title": "6 ways teams are experimenting with code layers",
-      "url": "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/",
-      "kind": "Article"
     },
     {
       "src": "nng",
@@ -208,20 +208,25 @@
     "ansh": {
       "state": "social"
     },
-    "expo": {
-      "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
     "designbetter": {
       "state": "ok",
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
     },
     "tldr": {
       "state": "ok",
@@ -233,19 +238,14 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
-    "designlab": {
-      "state": "none",
-      "error": "https://designlab.com/blog: no feed link found",
-      "count": 0
-    },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
-    },
     "nng": {
       "state": "ok",
       "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
+    "aianddesign": {
+      "state": "ok",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
     },
     "uxforai": {
@@ -258,10 +258,10 @@
       "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
-    "aianddesign": {
-      "state": "ok",
-      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
-      "count": 4
+    "designlab": {
+      "state": "none",
+      "error": "https://designlab.com/blog: no feed link found",
+      "count": 0
     }
   }
 }
