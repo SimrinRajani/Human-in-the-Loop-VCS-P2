@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-12T18:58:27.220Z",
+  "updated": "2026-11-13T18:34:07.880Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-13",
+      "title": "EU Digital Fairness 🛑, Gemini Video 🎬, WhatsApp Contacts 💬",
+      "url": "https://tldr.tech/design/2026-11-13",
+      "kind": "Daily digest"
+    },
     {
       "src": "figma",
       "date": "2026-11-12",
@@ -58,13 +65,6 @@
       "kind": "Article"
     },
     {
-      "src": "tldr",
-      "date": "2026-11-09",
-      "title": "Mac Live Activities 🖥️, Edits on Mac 🎬, YouTube Playables ♿",
-      "url": "https://tldr.tech/design/2026-11-09",
-      "kind": "Daily digest"
-    },
-    {
       "src": "designbetter",
       "date": "2026-11-08",
       "title": "The Brief: Guide to communicating the value of design",
@@ -114,6 +114,13 @@
       "kind": "Post"
     },
     {
+      "src": "nng",
+      "date": "2026-10-30",
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
+    {
       "src": "designbetter",
       "date": "2026-10-30",
       "title": "The Roundup: What three years of AI workshops taught us",
@@ -126,13 +133,6 @@
       "title": "The People Using AI Should Set Its Strategy",
       "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
       "kind": "Post"
-    },
-    {
-      "src": "nng",
-      "date": "2026-10-30",
-      "title": "The Role of UX in Agentic Software Factories",
-      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
     },
     {
       "src": "aianddesign",
@@ -218,6 +218,11 @@
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
     "designbetter": {
       "state": "ok",
       "feed": "https://designbetterpodcast.com/feed",
@@ -228,20 +233,20 @@
       "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
     "aiforux": {
       "state": "kept",
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
-    "nng": {
+    "tldr": {
       "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
+      "feed": "https://tldr.tech/api/rss/design",
       "count": 4
+    },
+    "designlab": {
+      "state": "none",
+      "error": "https://designlab.com/blog: no feed link found",
+      "count": 0
     },
     "aianddesign": {
       "state": "ok",
@@ -256,11 +261,6 @@
     "designwithai": {
       "state": "none",
       "error": "https://designwithai.beehiiv.com/: no feed link found",
-      "count": 0
-    },
-    "designlab": {
-      "state": "none",
-      "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     }
   }
