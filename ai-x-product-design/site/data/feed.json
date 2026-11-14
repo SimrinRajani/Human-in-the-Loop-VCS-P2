@@ -1,12 +1,33 @@
 {
-  "updated": "2026-11-13T18:34:07.880Z",
+  "updated": "2026-11-14T17:11:19.590Z",
   "items": [
+    {
+      "src": "figma",
+      "date": "2026-11-13",
+      "title": "AI’s role in the creative process",
+      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
+      "kind": "Article"
+    },
+    {
+      "src": "expo",
+      "date": "2026-11-13",
+      "title": "How to set up agentic workflows on Expo",
+      "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
+      "kind": "Post"
+    },
     {
       "src": "tldr",
       "date": "2026-11-13",
       "title": "EU Digital Fairness 🛑, Gemini Video 🎬, WhatsApp Contacts 💬",
       "url": "https://tldr.tech/design/2026-11-13",
       "kind": "Daily digest"
+    },
+    {
+      "src": "nng",
+      "date": "2026-11-13",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "figma",
@@ -86,13 +107,6 @@
       "kind": "Article"
     },
     {
-      "src": "figma",
-      "date": "2026-11-04",
-      "title": "Workflow lab: Test ideas with code layers and the Figma agent",
-      "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
-      "kind": "Article"
-    },
-    {
       "src": "designbetter",
       "date": "2026-11-04",
       "title": "Creative Leadership Retreat: Paul Dichter",
@@ -114,13 +128,6 @@
       "kind": "Post"
     },
     {
-      "src": "nng",
-      "date": "2026-10-30",
-      "title": "The Role of UX in Agentic Software Factories",
-      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "designbetter",
       "date": "2026-10-30",
       "title": "The Roundup: What three years of AI workshops taught us",
@@ -133,6 +140,13 @@
       "title": "The People Using AI Should Set Its Strategy",
       "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
       "kind": "Post"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-30",
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "aianddesign",
@@ -182,20 +196,6 @@
       "title": "OpenAI's Intelligent UI, Facebook's Your Algorithm, AI Relationship Quality (ARQ)",
       "url": "ffbab192-4c8e-4ab3-a8ea-ea3d2ba85913",
       "kind": "Episode"
-    },
-    {
-      "src": "expo",
-      "date": "2026-10-19",
-      "title": "Introducing expo-app-intents: Siri, Shortcuts, Spotlight, and Apple Intelligence for Expo apps",
-      "url": "https://expo.dev/blog/introducing-expo-app-intents",
-      "kind": "Post"
-    },
-    {
-      "src": "nng",
-      "date": "2026-10-16",
-      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
-      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
     }
   ],
   "status": {
@@ -208,6 +208,11 @@
     "ansh": {
       "state": "social"
     },
+    "designbetter": {
+      "state": "ok",
+      "feed": "https://designbetterpodcast.com/feed",
+      "count": 4
+    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
@@ -216,16 +221,6 @@
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
-    "designbetter": {
-      "state": "ok",
-      "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
     "shape": {
@@ -238,19 +233,24 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
-    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "aianddesign": {
+    "tldr": {
       "state": "ok",
-      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "uxforai": {
@@ -258,10 +258,10 @@
       "error": "https://uxforai.com/: no feed link found",
       "count": 0
     },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
-      "count": 0
+    "aianddesign": {
+      "state": "ok",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
+      "count": 4
     }
   }
 }
