@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-14T17:11:19.590Z",
+  "updated": "2026-11-15T17:47:26.861Z",
   "items": [
     {
-      "src": "figma",
-      "date": "2026-11-13",
-      "title": "AI’s role in the creative process",
-      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
-      "kind": "Article"
+      "src": "designbetter",
+      "date": "2026-11-14",
+      "title": "The Roundup: The best way to learn is to be curious and play",
+      "url": "https://designbetterpodcast.com/p/the-roundup-the-best-way-to-learn",
+      "kind": "Episode"
     },
     {
       "src": "expo",
@@ -14,6 +14,13 @@
       "title": "How to set up agentic workflows on Expo",
       "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
       "kind": "Post"
+    },
+    {
+      "src": "figma",
+      "date": "2026-11-13",
+      "title": "AI’s role in the creative process",
+      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
+      "kind": "Article"
     },
     {
       "src": "tldr",
@@ -128,13 +135,6 @@
       "kind": "Post"
     },
     {
-      "src": "designbetter",
-      "date": "2026-10-30",
-      "title": "The Roundup: What three years of AI workshops taught us",
-      "url": "https://designbetterpodcast.com/p/the-roundup-what-three-years-of-ai",
-      "kind": "Episode"
-    },
-    {
       "src": "aiforux",
       "date": "2026-10-30",
       "title": "The People Using AI Should Set Its Strategy",
@@ -208,6 +208,11 @@
     "ansh": {
       "state": "social"
     },
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
+      "count": 4
+    },
     "designbetter": {
       "state": "ok",
       "feed": "https://designbetterpodcast.com/feed",
@@ -218,9 +223,19 @@
       "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
-    "expo": {
+    "tldr": {
       "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
+    },
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
+      "count": 4
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "shape": {
@@ -228,40 +243,25 @@
       "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
-      "count": 4
-    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
-    },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
     },
     "designwithai": {
       "state": "none",
       "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
-    "nng": {
+    "aianddesign": {
       "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
+      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
     },
     "uxforai": {
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
       "count": 0
-    },
-    "aianddesign": {
-      "state": "ok",
-      "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
-      "count": 4
     }
   }
 }
