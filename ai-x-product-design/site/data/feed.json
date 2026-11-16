@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-15T17:47:26.861Z",
+  "updated": "2026-11-16T21:05:31.885Z",
   "items": [
+    {
+      "src": "figma",
+      "date": "2026-11-16",
+      "title": "How 1Password uses Figma Make to design for trust and certainty",
+      "url": "https://www.figma.com/blog/1password-figma-make/",
+      "kind": "Article"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-11-16",
+      "title": "Gemini 4 ⚡, Adobe Sneaks 🎨, New Flow Tools 🎬",
+      "url": "https://tldr.tech/design/2026-11-16",
+      "kind": "Daily digest"
+    },
     {
       "src": "designbetter",
       "date": "2026-11-14",
@@ -9,18 +23,18 @@
       "kind": "Episode"
     },
     {
-      "src": "expo",
-      "date": "2026-11-13",
-      "title": "How to set up agentic workflows on Expo",
-      "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
-      "kind": "Post"
-    },
-    {
       "src": "figma",
       "date": "2026-11-13",
       "title": "AI’s role in the creative process",
       "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
       "kind": "Article"
+    },
+    {
+      "src": "expo",
+      "date": "2026-11-13",
+      "title": "How to set up agentic workflows on Expo",
+      "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
+      "kind": "Post"
     },
     {
       "src": "tldr",
@@ -79,13 +93,6 @@
       "kind": "Post"
     },
     {
-      "src": "tldr",
-      "date": "2026-11-10",
-      "title": "Sketch to App ✏️, GitHub Redesign 🔀, Agentic Siri 🤖",
-      "url": "https://tldr.tech/design/2026-11-10",
-      "kind": "Daily digest"
-    },
-    {
       "src": "figma",
       "date": "2026-11-09",
       "title": "6 easy ways to use the Figma agent right now",
@@ -98,13 +105,6 @@
       "title": "The Brief: Guide to communicating the value of design",
       "url": "https://designbetterpodcast.com/p/the-brief-guide-to-communicating",
       "kind": "Episode"
-    },
-    {
-      "src": "figma",
-      "date": "2026-11-06",
-      "title": "In conversation: Dylan Field and David Friedberg on the human role in creating with AI",
-      "url": "https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg/",
-      "kind": "Article"
     },
     {
       "src": "nng",
@@ -208,9 +208,9 @@
     "ansh": {
       "state": "social"
     },
-    "expo": {
+    "figma": {
       "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
     "designbetter": {
@@ -218,9 +218,9 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "figma": {
+    "expo": {
       "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
     "tldr": {
@@ -228,35 +228,35 @@
       "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
-      "count": 4
-    },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
     "shape": {
       "state": "none",
       "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
+    },
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
+      "count": 4
     },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
-      "count": 0
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
     },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
     },
     "uxforai": {
       "state": "none",
