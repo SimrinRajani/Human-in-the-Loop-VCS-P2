@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-16T21:05:31.885Z",
+  "updated": "2026-11-17T19:54:20.804Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-17",
+      "title": "Foldable Face ID 📱, UX Hiring 📉, Stark in Codex ♿",
+      "url": "https://tldr.tech/design/2026-11-17",
+      "kind": "Daily digest"
+    },
     {
       "src": "figma",
       "date": "2026-11-16",
@@ -23,18 +30,18 @@
       "kind": "Episode"
     },
     {
-      "src": "figma",
-      "date": "2026-11-13",
-      "title": "AI’s role in the creative process",
-      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
-      "kind": "Article"
-    },
-    {
       "src": "expo",
       "date": "2026-11-13",
       "title": "How to set up agentic workflows on Expo",
       "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
       "kind": "Post"
+    },
+    {
+      "src": "figma",
+      "date": "2026-11-13",
+      "title": "AI’s role in the creative process",
+      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
+      "kind": "Article"
     },
     {
       "src": "tldr",
@@ -70,13 +77,6 @@
       "title": "Creative Leadership Retreat: Lucy McRae",
       "url": "https://designbetterpodcast.com/p/creative-leadership-retreat-lucy",
       "kind": "Episode"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-11-11",
-      "title": "IG AI Filters 📸, Disney Adobe AII 🏰, Google Messages Redesign 💬",
-      "url": "https://tldr.tech/design/2026-11-11",
-      "kind": "Daily digest"
     },
     {
       "src": "aianddesign",
@@ -208,6 +208,11 @@
     "ansh": {
       "state": "social"
     },
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
+      "count": 4
+    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
@@ -216,16 +221,6 @@
     "designbetter": {
       "state": "ok",
       "feed": "https://designbetterpodcast.com/feed",
-      "count": 4
-    },
-    "expo": {
-      "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
     "shape": {
@@ -243,6 +238,11 @@
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
+    },
     "nng": {
       "state": "ok",
       "feed": "https://www.nngroup.com/feed/rss/",
@@ -253,14 +253,14 @@
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
     },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
-      "count": 0
-    },
     "uxforai": {
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
+      "count": 0
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     }
   }
