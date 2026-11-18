@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17T19:54:20.804Z",
+  "updated": "2026-11-18T19:25:33.730Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-18",
+      "title": "Alpha Rebrand 🏛️, iPhone Camera Rumor 📷, Brand Fonts 🔤",
+      "url": "https://tldr.tech/design/2026-11-18",
+      "kind": "Daily digest"
+    },
+    {
+      "src": "aianddesign",
+      "date": "2026-11-18",
+      "title": "What Your Machines Should Do with Stefanie Hutka",
+      "url": "18e78f31-f169-4e2d-8214-11686e4dc82b",
+      "kind": "Episode"
+    },
     {
       "src": "tldr",
       "date": "2026-11-17",
@@ -30,6 +44,13 @@
       "kind": "Episode"
     },
     {
+      "src": "nng",
+      "date": "2026-11-13",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
+    },
+    {
       "src": "expo",
       "date": "2026-11-13",
       "title": "How to set up agentic workflows on Expo",
@@ -51,25 +72,11 @@
       "kind": "Daily digest"
     },
     {
-      "src": "nng",
-      "date": "2026-11-13",
-      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "figma",
       "date": "2026-11-12",
       "title": "How 3D transforms and Figma’s agent brought a launch video to life",
       "url": "https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/",
       "kind": "Article"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-11-12",
-      "title": "Xbox Redesign 🎮, Apple TV Sign Language 🧏, Adobe × Google 🎨",
-      "url": "https://tldr.tech/design/2026-11-12",
-      "kind": "Daily digest"
     },
     {
       "src": "designbetter",
@@ -135,18 +142,18 @@
       "kind": "Post"
     },
     {
-      "src": "aiforux",
-      "date": "2026-10-30",
-      "title": "The People Using AI Should Set Its Strategy",
-      "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
-      "kind": "Post"
-    },
-    {
       "src": "nng",
       "date": "2026-10-30",
       "title": "The Role of UX in Agentic Software Factories",
       "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
+    },
+    {
+      "src": "aiforux",
+      "date": "2026-10-30",
+      "title": "The People Using AI Should Set Its Strategy",
+      "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
+      "kind": "Post"
     },
     {
       "src": "aianddesign",
@@ -189,13 +196,6 @@
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
-    },
-    {
-      "src": "aianddesign",
-      "date": "2026-10-22",
-      "title": "OpenAI's Intelligent UI, Facebook's Your Algorithm, AI Relationship Quality (ARQ)",
-      "url": "ffbab192-4c8e-4ab3-a8ea-ea3d2ba85913",
-      "kind": "Episode"
     }
   ],
   "status": {
@@ -208,14 +208,14 @@
     "ansh": {
       "state": "social"
     },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
     "designbetter": {
@@ -223,15 +223,20 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
-    },
     "aiforux": {
       "state": "kept",
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
+    },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
     },
     "designlab": {
       "state": "none",
@@ -243,24 +248,19 @@
       "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
     },
-    "uxforai": {
-      "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
-      "count": 0
-    },
     "designwithai": {
       "state": "none",
       "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
       "count": 0
     }
   }
