@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-18T19:25:33.730Z",
+  "updated": "2026-11-19T19:30:18.573Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-19",
+      "title": "Google Sticky Citations 🔗, Spotify Protection 🎵, STOW Rebrand ☕",
+      "url": "https://tldr.tech/design/2026-11-19",
+      "kind": "Daily digest"
+    },
+    {
+      "src": "expo",
+      "date": "2026-11-19",
+      "title": "Agentic Workflows with Expo Simulators",
+      "url": "https://expo.dev/blog/agentic-workflows-with-expo-simulators",
+      "kind": "Post"
+    },
     {
       "src": "tldr",
       "date": "2026-11-18",
@@ -44,6 +58,13 @@
       "kind": "Episode"
     },
     {
+      "src": "figma",
+      "date": "2026-11-13",
+      "title": "AI’s role in the creative process",
+      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
+      "kind": "Article"
+    },
+    {
       "src": "nng",
       "date": "2026-11-13",
       "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
@@ -56,20 +77,6 @@
       "title": "How to set up agentic workflows on Expo",
       "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
       "kind": "Post"
-    },
-    {
-      "src": "figma",
-      "date": "2026-11-13",
-      "title": "AI’s role in the creative process",
-      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
-      "kind": "Article"
-    },
-    {
-      "src": "tldr",
-      "date": "2026-11-13",
-      "title": "EU Digital Fairness 🛑, Gemini Video 🎬, WhatsApp Contacts 💬",
-      "url": "https://tldr.tech/design/2026-11-13",
-      "kind": "Daily digest"
     },
     {
       "src": "figma",
@@ -163,13 +170,6 @@
       "kind": "Episode"
     },
     {
-      "src": "expo",
-      "date": "2026-10-27",
-      "title": "Introducing @expo/agent-cli: the CLI designed for agents",
-      "url": "https://expo.dev/blog/introducing-expo-agent-cli",
-      "kind": "Post"
-    },
-    {
       "src": "aiforux",
       "date": "2026-10-27",
       "title": "Smaller Teams Want Design Leaders Who Make, Again. Here’s How.",
@@ -208,19 +208,14 @@
     "ansh": {
       "state": "social"
     },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
     "nng": {
       "state": "ok",
       "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
-    "expo": {
-      "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
-    "designbetter": {
-      "state": "ok",
-      "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
     "aiforux": {
@@ -228,9 +223,19 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
-    "figma": {
+    "tldr": {
       "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
+    },
+    "designbetter": {
+      "state": "ok",
+      "feed": "https://designbetterpodcast.com/feed",
+      "count": 4
+    },
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
     "shape": {
@@ -243,20 +248,15 @@
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
     },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
-    },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
-      "count": 0
     },
     "uxforai": {
       "state": "none",
