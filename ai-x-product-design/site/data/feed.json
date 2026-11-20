@@ -1,11 +1,18 @@
 {
-  "updated": "2026-11-19T19:30:18.573Z",
+  "updated": "2026-11-20T19:08:18.721Z",
   "items": [
     {
+      "src": "designbetter",
+      "date": "2026-11-20",
+      "title": "Design Better 2026 Holiday Gift Guide",
+      "url": "https://designbetterpodcast.com/p/design-better-2026-holiday-gift-guide",
+      "kind": "Episode"
+    },
+    {
       "src": "tldr",
-      "date": "2026-11-19",
-      "title": "Google Sticky Citations 🔗, Spotify Protection 🎵, STOW Rebrand ☕",
-      "url": "https://tldr.tech/design/2026-11-19",
+      "date": "2026-11-20",
+      "title": "Docker Rebrand 🐳, Adobe Fonts Upgrade 🔤, Canva AI Off 🎛️",
+      "url": "https://tldr.tech/design/2026-11-20",
       "kind": "Daily digest"
     },
     {
@@ -14,6 +21,13 @@
       "title": "Agentic Workflows with Expo Simulators",
       "url": "https://expo.dev/blog/agentic-workflows-with-expo-simulators",
       "kind": "Post"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-11-19",
+      "title": "Google Sticky Citations 🔗, Spotify Protection 🎵, STOW Rebrand ☕",
+      "url": "https://tldr.tech/design/2026-11-19",
+      "kind": "Daily digest"
     },
     {
       "src": "tldr",
@@ -44,25 +58,11 @@
       "kind": "Article"
     },
     {
-      "src": "tldr",
-      "date": "2026-11-16",
-      "title": "Gemini 4 ⚡, Adobe Sneaks 🎨, New Flow Tools 🎬",
-      "url": "https://tldr.tech/design/2026-11-16",
-      "kind": "Daily digest"
-    },
-    {
       "src": "designbetter",
       "date": "2026-11-14",
       "title": "The Roundup: The best way to learn is to be curious and play",
       "url": "https://designbetterpodcast.com/p/the-roundup-the-best-way-to-learn",
       "kind": "Episode"
-    },
-    {
-      "src": "figma",
-      "date": "2026-11-13",
-      "title": "AI’s role in the creative process",
-      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
-      "kind": "Article"
     },
     {
       "src": "nng",
@@ -77,6 +77,13 @@
       "title": "How to set up agentic workflows on Expo",
       "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
       "kind": "Post"
+    },
+    {
+      "src": "figma",
+      "date": "2026-11-13",
+      "title": "AI’s role in the creative process",
+      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
+      "kind": "Article"
     },
     {
       "src": "figma",
@@ -126,13 +133,6 @@
       "title": "Agent Harness: Definition",
       "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
-    },
-    {
-      "src": "designbetter",
-      "date": "2026-11-04",
-      "title": "Creative Leadership Retreat: Paul Dichter",
-      "url": "https://designbetterpodcast.com/p/creative-leadership-retreat-paul",
-      "kind": "Episode"
     },
     {
       "src": "aianddesign",
@@ -208,15 +208,30 @@
     "ansh": {
       "state": "social"
     },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
+      "count": 4
+    },
+    "designbetter": {
+      "state": "ok",
+      "feed": "https://designbetterpodcast.com/feed",
+      "count": 4
+    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
     },
     "aiforux": {
       "state": "kept",
@@ -228,24 +243,14 @@
       "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
-    "designbetter": {
-      "state": "ok",
-      "feed": "https://designbetterpodcast.com/feed",
-      "count": 4
-    },
-    "expo": {
-      "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
-    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
+      "count": 0
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
       "count": 0
     },
     "designwithai": {
@@ -257,11 +262,6 @@
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
-    },
-    "uxforai": {
-      "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
-      "count": 0
     }
   }
 }
