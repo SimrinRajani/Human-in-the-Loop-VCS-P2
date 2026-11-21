@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T19:08:18.721Z",
+  "updated": "2026-11-21T18:01:45.595Z",
   "items": [
     {
       "src": "designbetter",
@@ -9,11 +9,25 @@
       "kind": "Episode"
     },
     {
+      "src": "figma",
+      "date": "2026-11-20",
+      "title": "Workflow lab: Turning context into a plan with Specs and the Figma agent",
+      "url": "https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent/",
+      "kind": "Article"
+    },
+    {
       "src": "tldr",
       "date": "2026-11-20",
       "title": "Docker Rebrand 🐳, Adobe Fonts Upgrade 🔤, Canva AI Off 🎛️",
       "url": "https://tldr.tech/design/2026-11-20",
       "kind": "Daily digest"
+    },
+    {
+      "src": "nng",
+      "date": "2026-11-20",
+      "title": "Can AI Generate Good Designs from Raw User Data?",
+      "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "expo",
@@ -65,13 +79,6 @@
       "kind": "Episode"
     },
     {
-      "src": "nng",
-      "date": "2026-11-13",
-      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "expo",
       "date": "2026-11-13",
       "title": "How to set up agentic workflows on Expo",
@@ -83,6 +90,13 @@
       "date": "2026-11-13",
       "title": "AI’s role in the creative process",
       "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
+      "kind": "Article"
+    },
+    {
+      "src": "nng",
+      "date": "2026-11-13",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
@@ -114,13 +128,6 @@
       "kind": "Post"
     },
     {
-      "src": "figma",
-      "date": "2026-11-09",
-      "title": "6 easy ways to use the Figma agent right now",
-      "url": "https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/",
-      "kind": "Article"
-    },
-    {
       "src": "designbetter",
       "date": "2026-11-08",
       "title": "The Brief: Guide to communicating the value of design",
@@ -149,18 +156,18 @@
       "kind": "Post"
     },
     {
-      "src": "nng",
-      "date": "2026-10-30",
-      "title": "The Role of UX in Agentic Software Factories",
-      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "aiforux",
       "date": "2026-10-30",
       "title": "The People Using AI Should Set Its Strategy",
       "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
       "kind": "Post"
+    },
+    {
+      "src": "nng",
+      "date": "2026-10-30",
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "aianddesign",
@@ -189,13 +196,6 @@
       "title": "Six AI Words That Keep Their Promises",
       "url": "https://aiforux.substack.com/p/six-ai-words-that-keep-their-promises",
       "kind": "Post"
-    },
-    {
-      "src": "nng",
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
     }
   ],
   "status": {
@@ -208,9 +208,14 @@
     "ansh": {
       "state": "social"
     },
-    "nng": {
+    "designbetter": {
       "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
+      "feed": "https://designbetterpodcast.com/feed",
+      "count": 4
+    },
+    "aiforux": {
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
     "expo": {
@@ -218,24 +223,14 @@
       "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
-    "designbetter": {
-      "state": "ok",
-      "feed": "https://designbetterpodcast.com/feed",
-      "count": 4
-    },
-    "figma": {
-      "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
-      "count": 4
-    },
     "shape": {
       "state": "none",
       "error": "https://www.shapeof.ai/: no feed link found",
       "count": 0
     },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
     "tldr": {
@@ -243,25 +238,30 @@
       "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
+      "count": 4
+    },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
-      "count": 0
-    },
-    "uxforai": {
-      "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
-      "count": 0
-    },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
+      "count": 0
     }
   }
 }
