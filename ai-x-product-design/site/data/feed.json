@@ -1,12 +1,33 @@
 {
-  "updated": "2026-11-23T22:42:35.955Z",
+  "updated": "2026-11-24T21:19:56.355Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-24",
+      "title": "Figma Handoffs 🤝, Bing Search 🔍, Flag Redesign 🇰🇵",
+      "url": "https://tldr.tech/design/2026-11-24",
+      "kind": "Daily digest"
+    },
+    {
+      "src": "figma",
+      "date": "2026-11-23",
+      "title": "The Figma agent is now available in FigJam and Slides",
+      "url": "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/",
+      "kind": "Article"
+    },
     {
       "src": "tldr",
       "date": "2026-11-23",
       "title": "Museum Posters 🎨, Foldable Apps 📱, Stitch Loop 🔁",
       "url": "https://tldr.tech/design/2026-11-23",
       "kind": "Daily digest"
+    },
+    {
+      "src": "aiforux",
+      "date": "2026-11-22",
+      "title": "November 16 - November 22 Round Up: Who’s Making Sure It’s Usable, AI-First Design Systems, Prototypes As Specifications",
+      "url": "https://aiforux.substack.com/p/november-16-november-22-round-up",
+      "kind": "Post"
     },
     {
       "src": "figma",
@@ -16,11 +37,11 @@
       "kind": "Article"
     },
     {
-      "src": "tldr",
+      "src": "nng",
       "date": "2026-11-20",
-      "title": "Docker Rebrand 🐳, Adobe Fonts Upgrade 🔤, Canva AI Off 🎛️",
-      "url": "https://tldr.tech/design/2026-11-20",
-      "kind": "Daily digest"
+      "title": "Can AI Generate Good Designs from Raw User Data?",
+      "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "designbetter",
@@ -30,17 +51,24 @@
       "kind": "Episode"
     },
     {
-      "src": "nng",
+      "src": "tldr",
       "date": "2026-11-20",
-      "title": "Can AI Generate Good Designs from Raw User Data?",
-      "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
+      "title": "Docker Rebrand 🐳, Adobe Fonts Upgrade 🔤, Canva AI Off 🎛️",
+      "url": "https://tldr.tech/design/2026-11-20",
+      "kind": "Daily digest"
     },
     {
       "src": "expo",
       "date": "2026-11-19",
       "title": "Agentic Workflows with Expo Simulators",
       "url": "https://expo.dev/blog/agentic-workflows-with-expo-simulators",
+      "kind": "Post"
+    },
+    {
+      "src": "aiforux",
+      "date": "2026-11-19",
+      "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
+      "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
       "kind": "Post"
     },
     {
@@ -51,18 +79,18 @@
       "kind": "Daily digest"
     },
     {
-      "src": "tldr",
-      "date": "2026-11-18",
-      "title": "Alpha Rebrand 🏛️, iPhone Camera Rumor 📷, Brand Fonts 🔤",
-      "url": "https://tldr.tech/design/2026-11-18",
-      "kind": "Daily digest"
-    },
-    {
       "src": "aianddesign",
       "date": "2026-11-18",
       "title": "What Your Machines Should Do with Stefanie Hutka",
       "url": "18e78f31-f169-4e2d-8214-11686e4dc82b",
       "kind": "Episode"
+    },
+    {
+      "src": "aiforux",
+      "date": "2026-11-17",
+      "title": "Prototypes Have Always Been The Most Effective Specification. Here’s How To Do It Better In The Age of AI.",
+      "url": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
+      "kind": "Post"
     },
     {
       "src": "figma",
@@ -72,18 +100,18 @@
       "kind": "Article"
     },
     {
+      "src": "aiforux",
+      "date": "2026-11-15",
+      "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
+      "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+      "kind": "Post"
+    },
+    {
       "src": "designbetter",
       "date": "2026-11-14",
       "title": "The Roundup: The best way to learn is to be curious and play",
       "url": "https://designbetterpodcast.com/p/the-roundup-the-best-way-to-learn",
       "kind": "Episode"
-    },
-    {
-      "src": "expo",
-      "date": "2026-11-13",
-      "title": "How to set up agentic workflows on Expo",
-      "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
-      "kind": "Post"
     },
     {
       "src": "figma",
@@ -100,11 +128,11 @@
       "kind": "Article"
     },
     {
-      "src": "figma",
-      "date": "2026-11-12",
-      "title": "How 3D transforms and Figma’s agent brought a launch video to life",
-      "url": "https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/",
-      "kind": "Article"
+      "src": "expo",
+      "date": "2026-11-13",
+      "title": "How to set up agentic workflows on Expo",
+      "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
+      "kind": "Post"
     },
     {
       "src": "designbetter",
@@ -156,13 +184,6 @@
       "kind": "Post"
     },
     {
-      "src": "aiforux",
-      "date": "2026-10-30",
-      "title": "The People Using AI Should Set Its Strategy",
-      "url": "https://aiforux.substack.com/p/the-people-using-ai-should-set-its",
-      "kind": "Post"
-    },
-    {
       "src": "nng",
       "date": "2026-10-30",
       "title": "The Role of UX in Agentic Software Factories",
@@ -175,27 +196,6 @@
       "title": "Structured AI Context, How PMs are Being Affected by AI, A Conversation with Junior Designers",
       "url": "4225c484-2816-4c7c-8d3c-fc2056794973",
       "kind": "Episode"
-    },
-    {
-      "src": "aiforux",
-      "date": "2026-10-27",
-      "title": "Smaller Teams Want Design Leaders Who Make, Again. Here’s How.",
-      "url": "https://aiforux.substack.com/p/smaller-teams-want-design-leaders",
-      "kind": "Post"
-    },
-    {
-      "src": "aiforux",
-      "date": "2026-10-25",
-      "title": "October 19 — October 25 Round Up: Coded Prototype Wireframing, Buy vs. Build UX, Research Builder Role",
-      "url": "https://aiforux.substack.com/p/october-19-october-25-round-up-coded",
-      "kind": "Post"
-    },
-    {
-      "src": "aiforux",
-      "date": "2026-10-24",
-      "title": "Six AI Words That Keep Their Promises",
-      "url": "https://aiforux.substack.com/p/six-ai-words-that-keep-their-promises",
-      "kind": "Post"
     }
   ],
   "status": {
@@ -208,24 +208,24 @@
     "ansh": {
       "state": "social"
     },
-    "expo": {
-      "state": "ok",
-      "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
+    "shape": {
+      "state": "none",
+      "error": "feed had no recent matching posts",
+      "count": 0
     },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
-    "tldr": {
+    "nng": {
       "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
-    "aiforux": {
-      "state": "kept",
-      "error": "https://aiforux.substack.com/: HTTP 403",
+    "expo": {
+      "state": "ok",
+      "feed": "https://expo.dev/blog/rss.xml",
       "count": 4
     },
     "designbetter": {
@@ -233,14 +233,14 @@
       "feed": "https://designbetterpodcast.com/feed",
       "count": 4
     },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
-    },
-    "nng": {
+    "aiforux": {
       "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
+      "feed": "https://aiforux.substack.com/feed",
+      "count": 4
+    },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
       "count": 4
     },
     "designlab": {
@@ -253,15 +253,15 @@
       "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
-    "uxforai": {
-      "state": "none",
-      "error": "https://uxforai.com/: no feed link found",
-      "count": 0
-    },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
+    },
+    "uxforai": {
+      "state": "none",
+      "error": "https://uxforai.com/: no feed link found",
+      "count": 0
     }
   }
 }
