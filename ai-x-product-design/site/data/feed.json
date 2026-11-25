@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-24T21:19:56.355Z",
+  "updated": "2026-11-25T20:29:48.108Z",
   "items": [
+    {
+      "src": "designbetter",
+      "date": "2026-11-25",
+      "title": "Shawn Cheris: Adobe design systems leader on why craft matters more as the floor rises",
+      "url": "https://designbetterpodcast.com/p/shawn-cheris",
+      "kind": "Episode"
+    },
+    {
+      "src": "tldr",
+      "date": "2026-11-25",
+      "title": "Google Sidebar 🔍, Figma Slides 🖼️, Photoshop Ban 📸",
+      "url": "https://tldr.tech/design/2026-11-25",
+      "kind": "Daily digest"
+    },
     {
       "src": "tldr",
       "date": "2026-11-24",
@@ -72,13 +86,6 @@
       "kind": "Post"
     },
     {
-      "src": "tldr",
-      "date": "2026-11-19",
-      "title": "Google Sticky Citations 🔗, Spotify Protection 🎵, STOW Rebrand ☕",
-      "url": "https://tldr.tech/design/2026-11-19",
-      "kind": "Daily digest"
-    },
-    {
       "src": "aianddesign",
       "date": "2026-11-18",
       "title": "What Your Machines Should Do with Stefanie Hutka",
@@ -121,18 +128,18 @@
       "kind": "Article"
     },
     {
-      "src": "nng",
-      "date": "2026-11-13",
-      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "kind": "Article"
-    },
-    {
       "src": "expo",
       "date": "2026-11-13",
       "title": "How to set up agentic workflows on Expo",
       "url": "https://expo.dev/blog/how-to-set-up-agentic-workflows",
       "kind": "Post"
+    },
+    {
+      "src": "nng",
+      "date": "2026-11-13",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "kind": "Article"
     },
     {
       "src": "designbetter",
@@ -154,13 +161,6 @@
       "title": "How to iterate faster with Expo, Supabase, and AI",
       "url": "https://expo.dev/blog/iteration-speed-expo-supabase-ai",
       "kind": "Post"
-    },
-    {
-      "src": "designbetter",
-      "date": "2026-11-08",
-      "title": "The Brief: Guide to communicating the value of design",
-      "url": "https://designbetterpodcast.com/p/the-brief-guide-to-communicating",
-      "kind": "Episode"
     },
     {
       "src": "nng",
@@ -208,24 +208,19 @@
     "ansh": {
       "state": "social"
     },
-    "shape": {
-      "state": "none",
-      "error": "feed had no recent matching posts",
-      "count": 0
-    },
     "figma": {
       "state": "ok",
       "feed": "https://www.figma.com/blog/feed/atom.xml",
       "count": 4
     },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
-      "count": 4
-    },
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
+      "count": 4
+    },
+    "nng": {
+      "state": "ok",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "designbetter": {
@@ -234,23 +229,18 @@
       "count": 4
     },
     "aiforux": {
-      "state": "ok",
-      "feed": "https://aiforux.substack.com/feed",
+      "state": "kept",
+      "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
     },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
-      "count": 0
-    },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     },
     "aianddesign": {
@@ -258,9 +248,19 @@
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
     },
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
+    },
     "uxforai": {
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
+      "count": 0
+    },
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     }
   }
