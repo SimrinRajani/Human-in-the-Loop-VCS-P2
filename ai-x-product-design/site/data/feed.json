@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-25T20:29:48.108Z",
+  "updated": "2026-11-26T20:13:29.054Z",
   "items": [
+    {
+      "src": "tldr",
+      "date": "2026-11-26",
+      "title": "Figma Lawsuit ⚖️, Google Flow Clips 🎬, Carling Rebrand 🍺",
+      "url": "https://tldr.tech/design/2026-11-26",
+      "kind": "Daily digest"
+    },
     {
       "src": "designbetter",
       "date": "2026-11-25",
@@ -23,13 +30,6 @@
       "kind": "Daily digest"
     },
     {
-      "src": "figma",
-      "date": "2026-11-23",
-      "title": "The Figma agent is now available in FigJam and Slides",
-      "url": "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/",
-      "kind": "Article"
-    },
-    {
       "src": "tldr",
       "date": "2026-11-23",
       "title": "Museum Posters 🎨, Foldable Apps 📱, Stitch Loop 🔁",
@@ -37,18 +37,18 @@
       "kind": "Daily digest"
     },
     {
+      "src": "figma",
+      "date": "2026-11-23",
+      "title": "The Figma agent is now available in FigJam and Slides",
+      "url": "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/",
+      "kind": "Article"
+    },
+    {
       "src": "aiforux",
       "date": "2026-11-22",
       "title": "November 16 - November 22 Round Up: Who’s Making Sure It’s Usable, AI-First Design Systems, Prototypes As Specifications",
       "url": "https://aiforux.substack.com/p/november-16-november-22-round-up",
       "kind": "Post"
-    },
-    {
-      "src": "figma",
-      "date": "2026-11-20",
-      "title": "Workflow lab: Turning context into a plan with Specs and the Figma agent",
-      "url": "https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent/",
-      "kind": "Article"
     },
     {
       "src": "nng",
@@ -65,11 +65,11 @@
       "kind": "Episode"
     },
     {
-      "src": "tldr",
+      "src": "figma",
       "date": "2026-11-20",
-      "title": "Docker Rebrand 🐳, Adobe Fonts Upgrade 🔤, Canva AI Off 🎛️",
-      "url": "https://tldr.tech/design/2026-11-20",
-      "kind": "Daily digest"
+      "title": "Workflow lab: Turning context into a plan with Specs and the Figma agent",
+      "url": "https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent/",
+      "kind": "Article"
     },
     {
       "src": "expo",
@@ -121,10 +121,10 @@
       "kind": "Episode"
     },
     {
-      "src": "figma",
+      "src": "nng",
       "date": "2026-11-13",
-      "title": "AI’s role in the creative process",
-      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "kind": "Article"
     },
     {
@@ -135,10 +135,10 @@
       "kind": "Post"
     },
     {
-      "src": "nng",
+      "src": "figma",
       "date": "2026-11-13",
-      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "AI’s role in the creative process",
+      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
       "kind": "Article"
     },
     {
@@ -208,19 +208,14 @@
     "ansh": {
       "state": "social"
     },
-    "figma": {
+    "nng": {
       "state": "ok",
-      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "expo": {
       "state": "ok",
       "feed": "https://expo.dev/blog/rss.xml",
-      "count": 4
-    },
-    "nng": {
-      "state": "ok",
-      "feed": "https://www.nngroup.com/feed/rss/",
       "count": 4
     },
     "designbetter": {
@@ -233,34 +228,39 @@
       "error": "https://aiforux.substack.com/: HTTP 403",
       "count": 4
     },
-    "shape": {
-      "state": "none",
-      "error": "https://www.shapeof.ai/: no feed link found",
-      "count": 0
+    "tldr": {
+      "state": "ok",
+      "feed": "https://tldr.tech/api/rss/design",
+      "count": 4
     },
     "designlab": {
       "state": "none",
       "error": "https://designlab.com/blog: no feed link found",
       "count": 0
     },
+    "figma": {
+      "state": "ok",
+      "feed": "https://www.figma.com/blog/feed/atom.xml",
+      "count": 4
+    },
     "aianddesign": {
       "state": "ok",
       "feed": "https://api.riverside.fm/hosting/8P3kTQz9.rss",
       "count": 4
     },
-    "tldr": {
-      "state": "ok",
-      "feed": "https://tldr.tech/api/rss/design",
-      "count": 4
+    "designwithai": {
+      "state": "none",
+      "error": "https://designwithai.beehiiv.com/: no feed link found",
+      "count": 0
+    },
+    "shape": {
+      "state": "none",
+      "error": "https://www.shapeof.ai/: no feed link found",
+      "count": 0
     },
     "uxforai": {
       "state": "none",
       "error": "https://uxforai.com/: no feed link found",
-      "count": 0
-    },
-    "designwithai": {
-      "state": "none",
-      "error": "https://designwithai.beehiiv.com/: no feed link found",
       "count": 0
     }
   }
